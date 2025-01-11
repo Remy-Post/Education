@@ -1,0 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 125px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+footer{
+    text-align: center;
+
+}
+
+header > div {
+    width: auto;
+    height: 100px;
+    flex-grow: 1;
+}
+
+header > div > a > img {
+    width: auto;
+    height: 100px;
+}
+
+header + main  > section:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/** Simple Selector **/
+
+/** Combinators **/
+
+/** Contextual **/
+
+/** Grouped **/
+
+/** class **/
+
+/** id **/
+
+/** structural pseudo-classes **/
+main > section + section > div:nth-child(1){
+    background: #f9a825;
+    padding: 5%;
+}
