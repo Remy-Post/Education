@@ -12,10 +12,11 @@ Student number (Lakehead): 1263325
 Student number (Georgian): 200602055
 
 ## Contact Information
+#### E-mails (Ranging from professional to personal) 
 Lakehead E-mail: rrpost@lakeheadu.ca <br />
 Georgian E-mail: Remy.Post@MyGeorgian.ca <br />
 Personal E-mail: remy.post.06@gmail.com 
-#### Phone number
+#### Phone number(s)
 Phone: (1) 905-392-0623
 
  
