@@ -5,7 +5,7 @@ This 'Education' Github repository contains most of my academic projects, which 
 Each folder corresponds to a specific course of my academic career. You will find my progression through the course in the weekly folder, and assignment progression/completion in the Assignments folder. The same logic applies to labs (if applicable to the course).
 
 ## Legal
-If you have any questions, concerns or if I have violated any policies regarding the material posted on this 'Education' repository, send me an email at rrpost@lakeheadu.ca, and we'll discuss this matter further in person if needed
+If you have any questions, concerns or I have violated any policies regarding the material posted on this 'Education' repository, send me an email at rrpost@lakeheadu.ca, and we'll discuss this matter further in person if needed
 
 ## Credentials
 Student number (Lakehead): 1263325    
