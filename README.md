@@ -14,7 +14,8 @@ Student number (Georgian): 200602055
 ## Contact Information
 Lakehead E-mail: rrpost@lakeheadu.ca <br />
 Georgian E-mail: Remy.Post@MyGeorgian.ca <br />
-Personal E-mail: remy.post.06@gmail.com <hr style="width: 30%; margin-left: 0; padding: 0px; position: relative; left: 10%;" />
-<span>Phone: (1) 905-392-0623</span style
+Personal E-mail: remy.post.06@gmail.com 
+<hr style="width: 30%; margin-left: 0; padding: 0px; position: relative; left: 10%;" />
+Phone: (1) 905-392-0623
 
  
