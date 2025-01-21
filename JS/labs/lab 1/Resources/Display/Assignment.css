@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {
+    font-family: helvetica, sans-serif;
+    width: 350px;
+}
+
+label {
+    font-weight: bold;
+}
+
+div {
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+/* Hide the output paragraph until the user has submitted the form */
+article p {
+    background: #ffc125;
+    color: #5e2612;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: -10px 10px 0 0 rgba(0, 0, 0, 0.2);
+    visibility: hidden;  /* hidden by default NEED TO SWITCH*/
+    width: 21vw;
+    height: 76%;
+    text-align: center;
+    font-size: 80%;
+    letter-spacing: 120%;
+    line-height: 130%;
+
+
+
+    /*This is my addition to the lab*/
+}
+
