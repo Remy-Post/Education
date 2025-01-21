@@ -1,0 +1,66 @@
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: #333;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+    padding: 2rem;
+    background: rgba(66, 153, 47, 0.586);
+    border-radius: 5px;
+    box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 200%;
+    padding: 1rem;
+    background: rgba(66, 153, 47, 0.586);
+    border-radius: 5px;
+    box-shadow: -6px 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+header div a{
+    color: white;
+    text-decoration: none;
+}
+
+header div a:hover{
+    color: #333;
+}
+
+body{
+    background: #665395;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    margin-left: 15vw; /*I'm not proud of my decisions*/
+    margin-top: 10vh; /*I'm not proud of my decisions*/
+    width: 60vw;
+    height: 40%;
+    display: flex;
+    background: purple;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+section{
+    margin-right: 5vw; /*I'm not proud of my decisions*/
+    background: #333;
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+
