@@ -5,6 +5,9 @@ This page contains information about the name of the assignment, length provided
   <tr>
     <th>CSS</th>
   </tr>
+  <tr>
+    <th>Project Type</th>
+    <th>Project number</th>
     <th>Assignment Name</th>
     <th>Date</th>
     <th>Completion date</th>
@@ -12,12 +15,22 @@ This page contains information about the name of the assignment, length provided
     <th>Result</th>
   </tr>
   <tr>
-    <th>Assignent 1</th>
+    <th>Assignment</th>
+    <th>Assignment 1</th>
+    <th>Wireframe Creation</th>
     <th>Jan 8</th>
     <th>Jan 15</th>
     <th>Completed</th>
     <th>
-      <a>View</a>
+      <a href="https://remy-post.github.io/Education/CSS/Assignments/Assignment%201/Wireframe.pdf" target="_blank">View</a>
     </th>
+  </tr>
+  <tr>
+    <th>Assignment</th>
+    <th>Assignment 2</th>
+    <th>What The Font</th>
+    <th>Jan 15</th>
+    <th>Jan 29</th>
+    <th style="background-color: blue"></th>
   </tr>
 </table>
