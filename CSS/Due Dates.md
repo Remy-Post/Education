@@ -1,5 +1,11 @@
-<h1>Due dates</h1>
+<h1>Important Dates</h1>
 This page contains information about the name of the assignment, length provided of the assignment, completion date, status.
+
+<table>
+  <tr>
+    <>
+</table>
+
 
 <table>
   <tr>
@@ -16,16 +22,16 @@ This page contains information about the name of the assignment, length provided
     <th>Result</th>
   </tr>
   <tr>
-    <th>Assignment</th>
-    <th>Assignment 1</th>
-    <th>Wireframe Creation</th>
-    <th>Jan 8</th>
-    <th>Jan 15</th>
-    <th>
+    <td>Assignment</td>
+    <td>Assignment 1</td>
+    <td>Wireframe Creation</td>
+    <td>Jan 8</td>
+    <td>Jan 15</td>
+    <td>
       <a href="https://remy-post.github.io/Education/CSS/Assignments/Assignment%201/Resources/Assignment%20One%20-%20%20Interface%20Design%20Using%20CSS.pdf" target="_blank">
         Instructions
       </a>
-    </th>
+    </td>
     <th>Completed</th>
     <th>
       <a href="https://remy-post.github.io/Education/CSS/Assignments/Assignment%201/Wireframe.pdf" target="_blank">View</a>
