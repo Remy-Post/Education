@@ -3,7 +3,32 @@ This page contains information about the name of the assignment, length provided
 
 <table>
   <tr>
-    <>
+    <th>Due Dates</th>
+  </tr>
+  <tr>
+    <td>Assignment number</td>
+    <td>Due Date</td>
+  </tr>
+  <tr>
+    <td>Assignment 1</td>
+    <td>Jan 15</td>
+  </tr>
+  <tr>
+    <td>Assignment 2</td>
+    <td>Jan 29</td>
+  </tr>
+  <tr>
+    <td>Assignment 3</td>
+    <td>Feb 19</td>
+  </tr>
+  <tr>
+    <td>Assignment 4</td>
+    <td>March 26</td>
+  </tr>
+  <tr>
+    <td>Project</td>
+    <td>April 2</td>
+  </tr>
 </table>
 
 
