@@ -9,9 +9,9 @@ If you have any questions, concerns or I have violated any policies regarding th
 
 <table>
   <tr>
-    <td>
+    <th>
       Due Dates
-    </td>
+    </th>
   </tr>
   <tr>
     <td>CSS</td>
