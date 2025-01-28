@@ -1,6 +1,7 @@
 <h1>Dates</h1>
 Here are the important dates
-
+<br />
+<br />
 <table>
   <tr>
     <th>Due Dates</th>
@@ -18,8 +19,7 @@ Here are the important dates
     <td>April 4</td>
   </tr>
 </table>
-
-
+<be />
 <table>
   <tr>
     <th>PHP</th>
