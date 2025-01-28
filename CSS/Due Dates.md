@@ -31,6 +31,6 @@ This page contains information about the name of the assignment, length provided
     <th>What The Font</th>
     <th>Jan 15</th>
     <th>Jan 29</th>
-    <th style="background-color: blue"></th>
+    <th style="background-color: blue;"></th>
   </tr>
 </table>
