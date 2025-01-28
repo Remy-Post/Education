@@ -2,6 +2,8 @@
 Here are the important dates
 <br />
 <br />
+<br />
+<br />
 <table>
   <tr>
     <th>Due Dates</th>
@@ -20,6 +22,7 @@ Here are the important dates
   </tr>
 </table>
 <be />
+<br />
 <table>
   <tr>
     <th>PHP</th>
