@@ -281,6 +281,20 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td>Not Assigned</td>
     <td><a href="https://github.com/Remy-Post/Education/tree/main/JS/Assignments/Assignment%203" target="_blank">Link</a></td>
   </tr>
+    <tr>
+    <td>JS</td>
+    <td>Quiz (2%)</td>
+    <td>Mar 17 | Mar 23</td>
+    <td>Not Assigned</td>
+    <td>Not Applicable</td>
+  </tr>
+  <tr>
+      <td>JS</td>
+      <td>Lab (2%)</td>
+      <td>Mar 17 | Mar 23</td>
+      <td>Not Assigned</td>
+      <td><a href="https://github.com/Remy-Post/Education/tree/main/JS/labs/Lab%204" target="_blank"></td>
+  </tr>
 </table>
 <br />
 <br />
@@ -293,6 +307,32 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td>CSS</td>
     <td>Assignment (12.5%)</td>
     <td>Mar 12 | Mar 26 </td>
+    <td>Not Assigned</td>
+    <td><a href="https://github.com/Remy-Post/Education/tree/main/CSS/Assignments/Assignment%204" target="_blank">Link</a></td>
+  </tr><tr>
+    <td></td>
+    <td></td>
+    <td>Feb | Feb</td>
+    <td>Not Assigned</td>
+    <td><a href="" target="_blank">Link</a></td>
+  </tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td>Feb | Feb</td>
+    <td>Not Assigned</td>
+    <td><a href="" target="_blank">Link</a></td>
+  </tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td>Feb | Feb</td>
+    <td>Not Assigned</td>
+    <td><a href="" target="_blank">Link</a></td>
+  </tr><tr>
+    <td></td>
+    <td></td>
+    <td>Feb | Feb</td>
     <td>Not Assigned</td>
     <td><a href="" target="_blank">Link</a></td>
   </tr><tr>
