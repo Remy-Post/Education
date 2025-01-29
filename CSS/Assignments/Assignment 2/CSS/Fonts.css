@@ -2,7 +2,7 @@
 /*Lato regular*/
 @font-face {
     font-family: 'Lato';
-    src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    src: url('./fonts/Lato/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
@@ -10,14 +10,14 @@
 /*Lato bold*/
 @font-face {
     font-family: 'Lato';
-    src: url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+    src: url('./fonts/Lato/Lato-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Lato light*/
 @font-face {
     font-family: 'Lato';
-    src: url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+    src: url('./fonts/Lato/Lato-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
@@ -45,14 +45,14 @@
 /*PT_Sans*/
 @font-face {
     font-family: 'PT_Sans';
-    src: url('../fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
+    src: url('./fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*PT_Sans bold*/
 @font-face {
     font-family: 'PT_Sans';
-    src: url('../fonts/PT_Sans/PTSans-Bold.ttf') format('truetype');
+    src: url('./fonts/PT_Sans/PTSans-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
