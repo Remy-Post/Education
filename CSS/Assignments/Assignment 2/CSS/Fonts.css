@@ -1,14 +1,14 @@
 /*PT_Sans*/
 @font-face {
     font-family: 'PT_Sans';
-    src: url('../Fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
+    src: url('../../Fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Quicksand*/
 @font-face {
     font-family: 'Quicksand';
-    src: url('../Fonts Used/Quicksand-Regular.ttf') format('truetype');
+    src: url('../../Fonts Used/Quicksand-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
@@ -16,21 +16,21 @@
 /*Roboto_Mono*/
 @font-face {
     font-family: 'Roboto_Mono';
-    src: url('../Fonts Used/RobotoMono-Regular.ttf') format('truetype');
+    src: url('../../Fonts Used/RobotoMono-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Space_Grotesk*/
 @font-face {
     font-family: 'Space_Grotesk';
-    src: url('../Fonts Used/SpaceGrotesk-Regular.ttf') format('truetype');
+    src: url('../../Fonts Used/SpaceGrotesk-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Space_Grotesk bold*/
 @font-face {
     font-family: 'Space_Grotesk';
-    src: url('../Fonts Used/SpaceGrotesk-Bold.ttf') format('truetype');
+    src: url('../../Fonts Used/SpaceGrotesk-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
