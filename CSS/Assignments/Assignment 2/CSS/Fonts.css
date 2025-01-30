@@ -2,6 +2,7 @@
 @font-face {
     font-family: 'PT_Sans';
     src: url('../Fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
+}
    
 
 /*Quicksand*/
@@ -54,8 +55,7 @@
 @font-face {
     font-family: 'Lato';
     src: url('Lato/Lato-Light.ttf') format('truetype');
-    lighter;
-}
+    }
 
 /*Nunito*/
 @font-face {
@@ -75,7 +75,7 @@
 @font-face {
     font-family: 'Nunito';
     src: url('Nunito/static/Nunito-Light.ttf') format('truetype');
-    lighter;
+    ;
 }
 
 /*PT_Sans*/
@@ -110,7 +110,7 @@
 @font-face {
     font-family: 'Quicksand';
     src: url('Quicksand/static/Quicksand-Light.ttf') format('truetype');
-    lighter;
+    ;
 }
 
 /*Roboto_Mono*/
@@ -131,7 +131,7 @@
 @font-face {
     font-family: 'Roboto_Mono';
     src: url('Roboto_Mono/static/RobotoMono-Light.ttf') format('truetype');
-    lighter;
+    ;
 }
 
 /*Jasefin_Sans*/
