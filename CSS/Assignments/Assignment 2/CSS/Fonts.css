@@ -1,14 +1,13 @@
 /*PT_Sans*/
 @font-face {
     font-family: 'PT_Sans';
-    src: url('./PTSans-Regular.ttf') format('truetype');
+    src: url('../Fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
    
 
 /*Quicksand*/
 @font-face {
     font-family: 'Quicksand';
-    src: url('./Quicksand-Regular.ttf') format('truetype');
-
+    src: url('../Fonts/Quicksand/static/Quicksand-Regular.ttf') format('truetype');
 }
 
 
