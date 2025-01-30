@@ -1,59 +1,8 @@
-
-/*Lato regular*/
-@font-face {
-    font-family: 'Lato';
-    src: url('./Fonts Used/Lato-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
-
-
-/*Lato bold*/
-@font-face {
-    font-family: 'Lato';
-    src: url('./Fonts Used/Lato-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-/*Lato light*/
-@font-face {
-    font-family: 'Lato';
-    src: url('./Fonts Used/Lato-Light.ttf') format('truetype');
-    font-weight: lighter;
-}
-
-/*Nunito*/
-@font-face {
-    font-family: 'Nunito';
-    src: url('./Fonts Used/Nunito-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
-
-/*Nunito bold*/
-@font-face {
-    font-family: 'Nunito';
-    src: url('./Fonts Used/Nunito-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-/*Nunito light*/
-@font-face {
-    font-family: 'Nunito';
-    src: url('./Fonts Used/Nunito-Light.ttf') format('truetype');
-    font-weight: lighter;
-}
-
 /*PT_Sans*/
 @font-face {
     font-family: 'PT_Sans';
-    src: url('./Fonts Used/PTSans-Regular.ttf') format('truetype');
+    src: url('../CSS/Assignments/Assignment 2/Fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
     font-weight: normal;
-}
-
-/*PT_Sans bold*/
-@font-face {
-    font-family: 'PT_Sans';
-    src: url('./Fonts Used/PTSans-Bold.ttf') format('truetype');
-    font-weight: bold;
 }
 
 /*Quicksand*/
@@ -63,60 +12,12 @@
     font-weight: normal;
 }
 
-/*Quicksand bold*/
-@font-face {
-    font-family: 'Quicksand';
-    src: url('./Fonts Used/Quicksand-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-/*Quicksand light*/
-@font-face {
-    font-family: 'Quicksand';
-    src: url('./Fonts Used/Quicksand-Light.ttf') format('truetype');
-    font-weight: lighter;
-}
 
 /*Roboto_Mono*/
 @font-face {
     font-family: 'Roboto_Mono';
     src: url('./Fonts Used/RobotoMono-Regular.ttf') format('truetype');
     font-weight: normal;
-}
-
-/*Roboto_Mono bold*/
-@font-face {
-    font-family: 'Roboto_Mono';
-    src: url('./Fonts Used/RobotoMono-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-/*Roboto_Mono light*/
-@font-face {
-    font-family: 'Roboto_Mono';
-    src: url('./Fonts Used/RobotoMono-Light.ttf') format('truetype');
-    font-weight: lighter;
-}
-
-/*Jasefin_Sans*/
-@font-face {
-    font-family: 'Josefin_Sans';
-    src: url('./Fonts Used/JosefinSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
-
-/*Jasefin_Sans bold*/
-@font-face {
-    font-family: 'Josefin_Sans';
-    src: url('./Fonts Used/JosefinSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-/*Jasefin_Sans light*/
-@font-face {
-    font-family: 'Josefin_Sans';
-    src: url('./Fonts Used/JosefinSans-Light.ttf') format('truetype');
-    font-weight: lighter;
 }
 
 /*Space_Grotesk*/
@@ -131,41 +32,6 @@
     font-family: 'Space_Grotesk';
     src: url('./Fonts Used/SpaceGrotesk-Bold.ttf') format('truetype');
     font-weight: bold;
-}
-
-/*Space_Grotesk light*/
-@font-face {
-    font-family: 'Space_Grotesk';
-    src: url('./Fonts Used/SpaceGrotesk-Light.ttf') format('truetype');
-    font-weight: lighter;
-}
-
-/*Titillium_Web*/
-@font-face {
-    font-family: 'Titillium_Web';
-    src: url('./Fonts Used/TitilliumWeb-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
-
-/*Titillium_Web bold*/
-@font-face {
-    font-family: 'Titillium_Web';
-    src: url('./Fonts Usedb/TitilliumWeb-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-/*Titillium_Web light*/
-@font-face {
-    font-family: 'Titillium_Web';
-    src: url('./Fonts Usedb/TitilliumWeb-Light.ttf') format('truetype');
-    font-weight: lighter;
-}
-
-/*Archivo*/
-@font-face {
-    font-family: 'Archivo';
-    src: url('./Fonts Used/Archivo-Regular.ttf') format('truetype');
-    font-weight: normal;
 }
 
 
