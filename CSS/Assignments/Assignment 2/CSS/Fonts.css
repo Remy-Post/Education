@@ -2,7 +2,7 @@
 /*Lato regular*/
 @font-face {
     font-family: 'Lato';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Lato/Lato-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Lato/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
@@ -10,160 +10,160 @@
 /*Lato bold*/
 @font-face {
     font-family: 'Lato';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Lato/Lato-Bold.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Lato/Lato-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Lato light*/
 @font-face {
     font-family: 'Lato';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Lato/Lato-Light.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Lato/Lato-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
 /*Nunito*/
 @font-face {
     font-family: 'Nunito';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Nunito/static/Nunito-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Nunito/static/Nunito-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Nunito bold*/
 @font-face {
     font-family: 'Nunito';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Nunito/static/Nunito-Bold.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Nunito/static/Nunito-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Nunito light*/
 @font-face {
     font-family: 'Nunito';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Nunito/static/Nunito-Light.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Nunito/static/Nunito-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
 /*PT_Sans*/
 @font-face {
     font-family: 'PT_Sans';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/PT_Sans/PTSans-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*PT_Sans bold*/
 @font-face {
     font-family: 'PT_Sans';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/PT_Sans/PTSans-Bold.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/PT_Sans/PTSans-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Quicksand*/
 @font-face {
     font-family: 'Quicksand';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Quicksand/static/Quicksand-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Quicksand/static/Quicksand-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Quicksand bold*/
 @font-face {
     font-family: 'Quicksand';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Quicksand/static/Quicksand-Bold.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Quicksand/static/Quicksand-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Quicksand light*/
 @font-face {
     font-family: 'Quicksand';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Quicksand/static/Quicksand-Light.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Quicksand/static/Quicksand-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
 /*Roboto_Mono*/
 @font-face {
     font-family: 'Roboto_Mono';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Roboto_Mono/static/RobotoMono-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Roboto_Mono/static/RobotoMono-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Roboto_Mono bold*/
 @font-face {
     font-family: 'Roboto_Mono';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Roboto_Mono/static/RobotoMono-Bold.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Roboto_Mono/static/RobotoMono-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Roboto_Mono light*/
 @font-face {
     font-family: 'Roboto_Mono';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Roboto_Mono/static/RobotoMono-Light.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Roboto_Mono/static/RobotoMono-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
 /*Jasefin_Sans*/
 @font-face {
     font-family: 'Josefin_Sans';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Jasefin_Sans bold*/
 @font-face {
     font-family: 'Josefin_Sans';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Jasefin_Sans light*/
 @font-face {
     font-family: 'Josefin_Sans';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Josefin_Sans/static/JosefinSans-Light.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Josefin_Sans/static/JosefinSans-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
 /*Space_Grotesk*/
 @font-face {
     font-family: 'Space_Grotesk';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Space_Grotesk bold*/
 @font-face {
     font-family: 'Space_Grotesk';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Space_Grotesk/static/SpaceGrotesk-Bold.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Space_Grotesk/static/SpaceGrotesk-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Space_Grotesk light*/
 @font-face {
     font-family: 'Space_Grotesk';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Space_Grotesk/static/SpaceGrotesk-Light.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Space_Grotesk/static/SpaceGrotesk-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
 /*Titillium_Web*/
 @font-face {
     font-family: 'Titillium_Web';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 /*Titillium_Web bold*/
 @font-face {
     font-family: 'Titillium_Web';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Titillium_Web light*/
 @font-face {
     font-family: 'Titillium_Web';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
 /*Archivo*/
 @font-face {
     font-family: 'Archivo';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSSFonts/Archivo/static/Archivo-Regular.ttf') format('truetype');
+    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Archivo/static/Archivo-Regular.ttf') format('truetype');
     font-weight: normal;
 }
