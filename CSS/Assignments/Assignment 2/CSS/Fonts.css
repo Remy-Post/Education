@@ -2,7 +2,7 @@
 /*Lato regular*/
 @font-face {
     font-family: 'Lato';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Lato/Lato-Regular.ttf') format('truetype');
+    src: url('./Fonts Used/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
@@ -10,14 +10,14 @@
 /*Lato bold*/
 @font-face {
     font-family: 'Lato';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Lato/Lato-Bold.ttf') format('truetype');
+    src: url('./Fonts Used/Lato-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 /*Lato light*/
 @font-face {
     font-family: 'Lato';
-    src: url('../Education/CSS/Assignments/Assignment 2/CSS/Fonts/Lato/Lato-Light.ttf') format('truetype');
+    src: url('./Fonts Used/Lato-Light.ttf') format('truetype');
     font-weight: lighter;
 }
 
