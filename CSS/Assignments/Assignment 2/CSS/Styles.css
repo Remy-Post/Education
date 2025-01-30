@@ -16,6 +16,7 @@ footer *{
 
 /*Header*/
 header {
+    font-family: 'PT_Sans', sans-serif;
     height: 33vh;
     width: 100%;
 
@@ -486,6 +487,7 @@ body main > section:nth-of-type(2) div:nth-of-type(4){
 
 /*Footer*/
 footer{
+    font-family: 'PT_Sans', sans-serif;
     width: 100%;
     height: 10vh;
     background-image: linear-gradient(to right,rgb(203,78,87,0.8) 5%,white 90%);
