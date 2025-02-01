@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./CSS/Normalize.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 
-                                    <!--Switch back for database interactivity-->
 </head>
 <body>
     <header>
