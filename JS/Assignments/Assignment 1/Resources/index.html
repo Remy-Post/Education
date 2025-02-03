@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Assignment 1 | COMP1073 Client-Side JavaScript" />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="Remy Post | GC: 200602055 | LH: 1263325"/> <!-- And based on "See'N Say Story Maker" (https://www.youtube.com/watch?v=gG8y_e6t0G4&ab_channel=limegl0wstix) -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+	<link rel="stylesheet" href="Normalize.css" />
+	<link rel="stylesheet" href="index.css" />
+	<script src="js/storymaker.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<div>
+			<div>
+				<h1>See-N-Say Storymaker</h1>
+			</div>
+		</div>
+		<div>
+			<div>
+				<h2>Create Your Story</h2>
+			</div>
+		</div>
+		<div>
+			<nav>
+				<h2>Student Nums:</h2>
+				<menu>
+					<li>GC: 200602055</li>
+					<li>LH: 1263325</li>
+				</menu>
+			</nav>
+		<div>
+	</header>
+	<main>
+	<section>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/gG8y_e6t0G4?si=fPDcPmnUYyyeOi5u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<div>
+			<h3>Inspiration &ensp;<a href="https://youtu.be/gG8y_e6t0G4?si=R7PY9rCNT7718bIR" target="_blank">Link</a></h3>
+		</div>
+	</section>
+	<section>
+		<!-- Section with all the buttons for the user to build their story -->
+		 <div>
+			<button id="noun1">Noun 1</button>
+			<p id="choosenNoun1"></p>
+		</div>
+		<div>
+			<button id="verb">Verb</button>
+			<p id="choosenVerb"></p>
+		</div>
+		<div>
+			<button id="adjective">Adjective</button>
+			<p id="choosenAdjective"></p>
+		</div>
+		<div>
+			<button id="noun2">Noun 2</button>
+			<p id="choosenNoun2"></p>
+		</div>
+		<div>
+			<button id="setting">Setting</button>
+			<p id="choosenSetting"></p>
+		</div>
+		<div>
+			<button id="playback">Show Story</button> 
+			<button id="random">Surprises</button> <!--Changed for similarity -->
+		</div>
+		<div>
+			<button id="reset">Reset</button>
+		</div>
+	</section>
+	<section>
+		<!-- Section with playback controls to see or hear the story -->
+		<div>
+			<h2>See Your Story</h2>
+		</div>
+		<!-- Empty paragraph to display the story -->
+		<div id="story">
+			<p></p>
+		</div>
+	</section>
+</main>
+</body>
+
+</html>
