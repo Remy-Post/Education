@@ -166,7 +166,7 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td>JS</td>
     <td>Assigment (12.5%)</td>
     <td>Feb 10 | Feb 16</td>
-    <td>Not Assigned</td>
+    <td>Assigned</td>
     <td><a href="https://github.com/Remy-Post/Education/tree/main/JS/Assignments/Assignment%202" target="_blank">Link</td>
   </tr>
   </table>
