@@ -238,6 +238,13 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td><a href="https://github.com/Remy-Post/Education/tree/main/Python/Labs/Lab%206" target="_blank">Link</a></td>
     <td></td>
   </tr>
+    <tr>
+        <td>Java</td>
+        <td>Assignment (10%)</td>
+        <td>Feb 16 | Mar 6</td>
+        <td>Not Assigned</td>
+        <td><a href="https://github.com/Remy-Post/Education/tree/main/Java/Assignments/Assignment%202" target="_blank">Link</a></td>
+    </tr>
 </table>
 <br />
 <br />
@@ -296,6 +303,13 @@ The academic tasks will be organized by the due date, not by complexity. But fro
       <td>Not Assigned</td>
       <td><a href="https://github.com/Remy-Post/Education/tree/main/JS/labs/Lab%204" target="_blank"></td>
   </tr>
+  <tr>
+    <td>Python</td>
+    <td>Lab (2%)</td>
+    <td>Mar 21 | Midnight</td>
+    <td>Not Assigned</td>
+    <td><a href="https://github.com/Remy-Post/Education/tree/main/Python/Labs/Lab%208" target="_blank">Link</a></td>
+  </tr>
 </table>
 <br />
 <br />
@@ -311,44 +325,81 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td>Not Assigned</td>
     <td><a href="https://github.com/Remy-Post/Education/tree/main/CSS/Assignments/Assignment%204" target="_blank">Link</a></td>
   </tr><tr>
-    <td></td>
-    <td></td>
-    <td>Feb | Feb</td>
+    <td>Python</td>
+    <td>Lab (2%)</td>
+    <td>Mar 28 | Midnight</td>
     <td>Not Assigned</td>
-    <td><a href="" target="_blank">Link</a></td>
+    <td><a href="https://github.com/Remy-Post/Education/tree/main/Python/Labs/Lab%209" target="_blank">Link</a></td>
   </tr>
 <tr>
-    <td></td>
-    <td></td>
-    <td>Feb | Feb</td>
+    <td>PHP</td>
+    <td>Assignment (15%)</td>
+    <td>Mar 14 | Mar 28</td>
+    <td>Not Assigned</td>
+    <td><a href="https://github.com/Remy-Post/Education/tree/main/PHP/Assignments/Assignment%202" target="_blank">Link</a></td>
+  </tr>
+   <tr>
+    <td>JS</td>
+    <td>Lab (2%)</td>
+    <td>Mar 31 | April 6</td>
     <td>Not Assigned</td>
     <td><a href="" target="_blank">Link</a></td>
+  </tr><tr>
+    <td>JS</td>
+    <td>Quiz (2%)</td>
+    <td>Mar 31 | Apr 6</td>
+    <td>Not Assigned</td>
+    <td>Not Applicable</td>
+  </tr>
+</table>
+          <br />
+<table>
+    <tr>
+        <th>Week 13</th>
+        <td>Date Span</td>
+    </tr>
+<tr>
+    <td>Python</td>
+    <td>Project (10%)</td>
+    <td>Mar 14 | Apr 6</td>
+    <td>Not Assigned</td>
+    <td><a href="https://github.com/Remy-Post/Education/tree/main/Python/Project" target="_blank">Link</a></td>
+</tr>
+ <tr>
+    <td>Python</td>
+    <td>Lab (2%)</td>
+    <td>Apr 4 | Midnight</td>
+    <td>Not Assigned</td>
+    <td><a href="https://github.com/Remy-Post/Education/tree/main/Python/Labs/Lab%2010" target="_blank">Link</a></td>
   </tr>
     <tr>
-    <td></td>
-    <td></td>
-    <td>Feb | Feb</td>
-    <td>Not Assigned</td>
-    <td><a href="" target="_blank">Link</a></td>
-  </tr><tr>
-    <td></td>
-    <td></td>
-    <td>Feb | Feb</td>
-    <td>Not Assigned</td>
-    <td><a href="" target="_blank">Link</a></td>
-  </tr><tr>
-    <td></td>
-    <td></td>
-    <td>Feb | Feb</td>
-    <td>Not Assigned</td>
-    <td><a href="" target="_blank">Link</a></td>
-  </tr><tr>
-    <td></td>
-    <td></td>
-    <td>Feb | Feb</td>
-    <td>Not Assigned</td>
-    <td><a href="" target="_blank">Link</a></td>
-  </tr>
+        <td>CSS</td>
+        <td>Project (30%)</td>
+        <td>Feb 5 | Apr 2</td>
+        <td>Not Assigned</td>
+        <td><a href="https://github.com/Remy-Post/Education/tree/main/CSS/Project" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>PHP</td>
+        <td>Project (30%)</td>
+        <td>Feb 14 | Apr 4</td>
+        <td>Not Assigned</td>
+        <td><a href="https://github.com/Remy-Post/Education/tree/main/PHP/Project" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td>Java</td>
+        <td>Assignment (20%)</td>
+        <td>Mar 13 | Apr 4</td>
+        <td>Not Assigned</td>
+        <td><a href="https://github.com/Remy-Post/Education/tree/main/Java/Assignments/Assignment%203" target="_blank">Link</a></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="" target="_blank">Link</a></td>
+    </tr>
 </table>
 
 
