@@ -170,6 +170,7 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td><a href="https://github.com/Remy-Post/Education/tree/main/JS/Assignments/Assignment%202" target="_blank">Link</td>
   </tr>
   </table>
+        <br />
   <table>
   <tr>
     <th>Week 7</th>
