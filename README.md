@@ -236,7 +236,6 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td>Mar 7 | Midnight</td>
     <td>Not Assigned</td>
     <td><a href="https://github.com/Remy-Post/Education/tree/main/Python/Labs/Lab%206" target="_blank">Link</a></td>
-    <td></td>
   </tr>
     <tr>
         <td>Java</td>
@@ -392,13 +391,6 @@ The academic tasks will be organized by the due date, not by complexity. But fro
         <td>Mar 13 | Apr 4</td>
         <td>Not Assigned</td>
         <td><a href="https://github.com/Remy-Post/Education/tree/main/Java/Assignments/Assignment%203" target="_blank">Link</a></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><a href="" target="_blank">Link</a></td>
     </tr>
 </table>
 
