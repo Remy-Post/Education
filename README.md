@@ -58,14 +58,14 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td>JS</td>
     <td>Lab (2%)</td>
     <td>Jan 20 | Jan 26</td>
-    <td>Completed</td>
+    <td>Submitted</td>
     <td> <a href="https://github.com/Remy-Post/Education/tree/main/JS/labs/lab%201" target="_blank">Link</a></td>
   </tr>
   <tr>
     <td>JS</td>
     <td>Quiz (2%)</td>
-    <td>Completed</td>
     <td>Jan 20 | Jan 26</td>
+    <td>Completed</td>
     <td>Not Applicable</td>
   </tr>
   <tr>
@@ -87,28 +87,28 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td>CSS</td>
     <td>Assignment (10%)</td>
     <td>Jan 15 | Jan 29</td>
-    <td>Finished</td>
+    <td>Submitted</td>
     <td><a href="https://github.com/Remy-Post/Education/tree/main/CSS/Assignments/Assignment%202" target="_blank">Link</a></td>
   </tr>
   <tr>   
     <td>PHP</td>
     <td>Assigment (15%)</td>
     <td>Jan 17 | Jan 31</td>
-    <td>Started</td>
+    <td>Submitted</td>
     <td><a href="https://github.com/Remy-Post/Education/tree/main/PHP/Assignments/Assignment%201" target="_blank">Link</a></td>
   </tr>
   <tr>
     <td>Python</td>
     <td>Exam (10%)</td>
     <td>Jan 31</td>
-    <td>N/A</td>
+    <td>Completed</td>
     <td><a href="https://remy-post.github.io/Education/Python/Weeks/Week%204/Exam%20Review.pdf" target="_blank">Link</a></td>
   </tr>
   <tr>
     <td>JS</td>
     <td>Assignment (12.5%)</td>
     <td>Jan 27 | Feb 2</td>
-    <td>Not Started</td>
+    <td>Submitted</td>
     <td><a href="https://github.com/Remy-Post/Education/tree/main/JS/Assignments/Assignment%201" target="_blank"></a></td>
   </tr>
   </table>
@@ -137,7 +137,7 @@ The academic tasks will be organized by the due date, not by complexity. But fro
     <td>Java</td>
     <td>Assignment (10%)</td>
     <td>Jan 23 | Feb 6</td>
-    <td>Not Started</td>
+    <td>Submitted</td>
     <td><a href="https://github.com/Remy-Post/Education/tree/main/Java/Assignments/Assignment%201" target="_blank">Link</td>
   </tr>
   <tr>
