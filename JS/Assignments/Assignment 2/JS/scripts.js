@@ -23,7 +23,7 @@ s.addEventListener("click", addList);
 
 s.addEventListener("change", changeImage);
 
-const SRC = Array('./images/img1.jpg', './images/img2.jpg', './images/img3.jpg', './images/img4.jpg', './images/img5.jpg');
+const SRC = Array('./Image/img1.jpg', './Image/img2.jpg', './Image/img3.jpg', './Image/img4.jpg', './Image/img5.jpg');
 const ALT = Array('Nature','Tree', 'mountain', 'deer', 'river');
 var LogI = Array();
 
