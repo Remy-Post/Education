@@ -1,0 +1,592 @@
+/*------------------------------------- Variables ---------------------------------------------*/
+:root{
+    --radius: 10px;
+}
+
+html{
+
+}
+
+body{
+
+}
+
+/*--------------------------------------- /Variables*/
+
+/*------------------------------------- Header ---------------------------------------------*/
+body header{
+            /*Header Dimentions*/
+    width: 100%;
+    height: 100px;
+
+            /*Header Position*/
+    
+            /*Header Format*/
+    background: rgba(184, 184, 184, 0.5);
+
+            /*Header Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+}
+
+/*Header - Title Box*/
+/*This Box contains the title of the page*/
+header > div{
+            /*Box Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Box Dimentions*/
+    width: 50%;
+    height: 50%;
+
+            /*Box Format*/
+    background: teal;
+    border-radius: var(--radius);
+
+            /*Box Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Title Box - Title*/
+/*This is the title of the page*/
+header > div > h1{
+            /*Title Position*/
+    text-align: center;
+
+            /*Title Format*/
+    margin: 0;
+}
+
+/*Header - Navegation*/
+/*This is the navegation bar of the page*/
+header nav{
+            /*Navegation Position*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Navegation Dimentions*/
+    width: 100%;
+    height: 70%;
+
+            /*Navegation Format*/
+
+            /*Navegation Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Header - Navegation - Icons (Background)*/
+/*This is the background of the navigation*/
+header nav > a{
+            /*Icon Position*/
+    justify-self: center;
+    align-self: center;
+
+            /*Icon Dimentions*/
+    width: 20%;
+    height: 100%;
+
+            /*Icon Format*/
+    background: rgba(184, 184, 184, 0.5);
+    border-radius: var(--radius);
+
+            /*Icon Display*/
+    display: flex;
+    
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Navegation - Icons*/
+/*This is the icons of the navegation bar*/
+header nav > a img{
+        /*Text Position*/
+    text-align: center;
+
+        /*Image Dimentions*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Header - Navigation - Icons: Home*/
+/*This is the icon of the home page*/ /*Specified*/
+header nav > a:nth-of-type(1) img{
+
+}
+
+/*Header - Navigation - Icon: Account*/
+/*This is the icon of the account page*/ /*Specified*/
+header nav > a:nth-of-type(2) img{
+
+}
+
+/*Header - Navigation - Icon: About Us*/
+/*This is the icon of the about us page*/ /*Specified*/
+header nav > a:nth-of-type(3) img{
+
+}
+
+/*Header - Navigation - Icons: Shopping*/
+/*This is the icon of the shopping page*/ /*Specified*/
+header nav > a:nth-of-type(4) img{
+
+}
+
+/*-------------------------------------------- /Header -------------------------------------------------*/
+
+/*-------------------------------------------- Body -------------------------------------------------------*/
+
+body main{
+
+}
+
+/*Section 1*/   /*Service 16*/
+    /*This is the first section of the page for the first service*/
+    /*Body - This Section*/
+    body main > section:nth-of-type(1){
+                /*Section Dimentions*/
+        width: 100%;
+        height: 35vh;
+
+                /*Section Format*/
+        background: rgba(61, 61, 61, 0.5);
+
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+
+    /*Body - This Section - Iframe*/
+    /*This is the Youtube\Other video*/
+    body main > section:nth-of-type(1) > iframe{
+                /*Iframe Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Iframe Dimentions*/
+        width: auto;
+        height: auto;
+        
+                /*Iframe Format*/
+        border-radius: var(--radius);
+    }
+
+
+    /*Body - This Section - Content*/
+    /*This is the content of the section*/
+    body main > section:nth-of-type(1) > section{
+                /*Content Position*/
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Content Dimentions*/
+        width: 80%;
+        height: 80%;
+
+                /*Content Format*/
+        background: rgba(184, 184, 184, 0.5);
+        border-radius: var(--radius);
+
+                /*Content Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+
+
+    }
+
+    /*Body - This Section - Content - Title Box*/
+    /*This is the title box for the first service*/
+    body main > section:nth-of-type(1) > section > div{
+                /*Box Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Box Dimentions*/
+        width: 60%;
+        height: 60%;
+
+                /*Box Format*/
+        background: rgba(212, 175, 175, 0.5);
+        border-radius: var(--radius);
+
+                /*Box Display*/
+        display: flex;
+    
+                /*Flex Properties*/
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Body - This Section - Content - Title Box - Title*/
+    /*This is the title of the first service*/
+    body main > section:nth-of-type(1) > section > div > h1{
+                /*Title Position*/
+        text-align: center;
+
+                /*Title Format*/
+        margin: 0;
+    }
+
+    /*Body - This Section - Content - Description*/
+    /*This is the description of the first service*/
+    body main > section:nth-of-type(1) > section > p{
+                /*Description Position*/
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: center;
+
+                /*Description Dimentions*/
+        width: 80%;
+        height: 90%;
+
+
+                /*Description Format*/
+        padding: 0;
+        margin: 0;
+    }   
+
+/*section 2*/
+    /*This section, the second section of the page describies our second provided service*/
+    /*Body - This Section*/
+    body main > section:nth-of-type(2){
+                /*Section Dimentions*/
+        width: 100%;
+        height: 35vh;
+
+                /*Section Format*/
+        background: rgba(154, 255, 87, 0.5);
+
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+
+    /*Body - This Section - Content*/
+    /*This is the content of the section*/
+    body main > section:nth-of-type(2) > section{
+                /*Content Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Content Dimentions*/
+        width: 80%;
+        height: 80%;
+
+                /*Content Format*/
+        background: rgba(184, 184, 184, 0.5);
+        border-radius: var(--radius);
+
+                /*Content Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+    }
+
+    /*Body - This Section - Content - Title Box*/
+    /*This is the title box for the second service*/
+    body main > section:nth-of-type(2) > section > div{
+                /*Box Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Box Dimentions*/
+        width: 60%;
+        height: 60%;
+
+                /*Box Format*/
+        background: rgba(212, 175, 175, 0.5);
+        border-radius: var(--radius);
+
+                /*Box Display*/
+        display: flex;
+    
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Body - This Section - Content - Title Box - Title*/
+    /*This is the title of the second service*/
+    body main > section:nth-of-type(2) > section > div > h3{
+                /*Title Position*/
+        text-align: center;
+
+                /*Title Format*/
+        margin: 0;
+
+    }
+
+    /*Body - This Section - Content - Description*/
+    /*This is the description of the second service*/
+    body main > section:nth-of-type(2) > section > p{
+                /*Description Position*/
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: center;
+
+                /*Description Dimentions*/
+        width: 80%;
+        height: 90%;
+
+                /*Description Format*/
+        padding: 0;
+        margin: 0;
+
+    }
+
+     /*Body - This Section - Iframe*/
+    /*This is the Youtube\Other video*/
+    body main > section:nth-of-type(2) > iframe{
+                /*Iframe Position*/
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Iframe Dimentions*/
+        width: auto;
+        height: auto;
+        
+                /*Iframe Format*/
+        border-radius: var(--radius);
+    }
+
+/*------------------------------------------------ /Body --------------------------------------------------*/
+
+/*------------------------------------------------ Footer ---------------------------------------------------*/
+
+body footer{
+            /*Footer Dimentions*/
+    width: 100%;
+    height: 100px;
+    
+            /*Footer Format*/
+    background: rgba(108, 13, 13, 0.5);
+
+            /*Footer Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+
+}
+
+/*Footer - Socials Box*/
+/*This box contains all the Social media icons*/
+body footer > section:nth-of-type(1){
+            /*Box Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Box Dimentions*/
+    width: 90%; 
+    height: 80%;
+
+            /*Box Format*/
+    background: transparent;
+    border-radius: var(--radius);
+
+            /*Box Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 20%  3% 20% 3% 20% 3% 20%;
+    grid-template-rows: 100%;
+}
+
+/*Footer - Socials Box - Lines*/
+/*This is the lines that separete the icons*/
+body footer > section:nth-of-type(1) > hr{
+            /*Text Position*/
+    justify-self: center;
+    align-self: center;
+
+            /*Text Format*/
+    margin: 0;
+    width: 3rem;
+    transform: rotate(90deg);
+}
+
+/*Footer - Socials Box - Icons (Bakcground)*/
+/*This is the background of all the social media Icons*/
+body footer > section:nth-of-type(1) > a{
+            /*Icon Position*/
+    justify-self: center;
+    align-self: center;
+
+            /*Icon Dimentions*/
+    width: 80%;
+    height: 80%;
+
+            /*Icon Format*/
+    background: rgba(184, 184, 184, 0.5);
+    border-radius: var(--radius);
+
+            /*Icon Display*/
+    display: flex;
+    
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer - Socials Box - Icons*/
+/*This is the social media icons*/
+body footer > section:nth-of-type(1) > a img{
+            /*Text Position*/
+    text-align: center;
+
+            /*Image Location*/
+    justify-self: center;
+    align-self: center;
+
+            /*Image Dimentions */
+    width: 90%;
+    height: 90%;
+
+            /*Image Format*/
+    margin: 0;
+    padding: 0;
+
+            /*Image Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer - Socials Box - Icons: TikTok*/
+/*This is the TikTok icon*/ /*Specified*/
+body footer > section:nth-of-type(1) > a:nth-of-type(1) img{
+
+}
+
+/*Footer - Socials Box - Icons: X*/
+/*This is the X icon*/ /*Specified*/
+body footer > section:nth-of-type(1) > a:nth-of-type(2) img{
+
+}
+
+/*Footer - Socials Box - Icons: Instagram*/
+/*This is the Instagram icon*/ /*Specified*/
+body footer > section:nth-of-type(1) > a:nth-of-type(3) img{
+
+}
+
+/*Footer - Socials Box - Icons: Facebook*/
+/*This is the Facebook icon*/ /*Specified*/
+body footer > section:nth-of-type(1) > a:nth-of-type(4) img{
+
+}
+
+/*Footer - Contact Container*/
+/*This is the Content Container which contains the email and phone nuber */
+body footer > section:nth-of-type(2){
+            /*Vairables*/
+    --gaps: 3%;
+
+            /*Container Position*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Container Dimentions*/
+    width: 80%;
+    height: auto;
+    line-height: 150%;
+    padding: 1%;
+
+            /*Container Format*/
+    background: rgba(184, 184, 184, 0.5);
+    border-radius: var(--radius);
+
+            /*Container Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    position: relative;
+    left: calc();
+    grid-template-columns: repeat(3, calc((100%/3) - var(--gaps)));
+    grid-template-rows: 100%;
+    grid-gap: var(--gaps);
+}
+
+/*Footer - Contact Container - Title*/
+/*The Title: "Contact Us"*/
+body footer > section:nth-of-type(2) > h5{
+            /*Text Position*/
+    text-align: center;
+    justify-self: flex-end;
+    align-self: flex-start;
+
+}
+
+/*Footer - Contact Container - Email*/
+/*This paragraph contains the Email*/
+body footer > section:nth-of-type(2) > p:nth-of-type(1){
+            /*Text Position*/
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+/*Footer - Contact Container - Phone Number*/
+/*This paragraph contains the Phone Number*/
+body footer > section:nth-of-type(2) > p:nth-of-type(2){
+            /*Text Position*/
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+/*Footer - Contact Container - All Text*/
+/*This targets all text elemnts in the container*/
+body footer > section:nth-of-type(2) > *{
+            /*Text Format*/
+    margin: 0;
+    padding: 0;
+}
