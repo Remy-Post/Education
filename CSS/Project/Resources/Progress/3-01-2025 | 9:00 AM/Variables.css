@@ -1,0 +1,15 @@
+html{
+    --cPrimaryBg: #3498db;
+    --cSecondairyBg: #2ecc71;
+    --cText: #2c3e50;
+    --cHeading: #e74c3c;
+    --cAccent: #9b59b6;
+    --cBorder: #34495e;
+}
+
+/*
+        Variables
+    Format: |color|name| Optional: description|
+        =>     |c||Text|
+        =>     |c||Prim|Bg|
+*/
