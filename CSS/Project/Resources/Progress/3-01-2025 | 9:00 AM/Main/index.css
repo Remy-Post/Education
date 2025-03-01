@@ -1,0 +1,1096 @@
+/*----------------------- Imports ------------------------------*/
+@import url(../Fonts/fonts.css);
+
+/*----------------------- /Imports ------------------------------*/
+
+/*---------------------- Variables -------------------------------*/
+:root{
+    --width: 100%; 
+    --radius: 10px;
+}
+
+html{
+    width: 100%;
+
+    background: rgba(90, 188, 103, 0.81);
+    background: var(--primary);
+}
+
+body{
+
+}
+
+
+/*---------------------- Variables -------------------------------*/
+
+/*------------------------- Header -----------------------------------*/
+
+body header{
+                /*Header Dimentions*/
+    width: var(--width);
+    height: 300px;
+
+                /*Header Formating*/
+    background: transparent;
+
+                /*Header Display*/
+    display: flex;
+
+                /*Content Aligment*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Min Content Area*/
+body header > div{
+                /*Area dimentions*/
+    width: 80%;
+    height: 70%;
+
+                /*Area formating*/
+    background: rgba(197, 197, 197, 0.815);
+    border-radius: var(--radius);
+    
+                /*Area Display*/
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 100%;
+}
+
+
+/*Header - Min Content Area - Title Box*/
+/*The box contianing the page title */
+body header > div > section:nth-of-type(1){
+                  /*Box placement*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+                  /*Box dimentions*/
+    width: 90%;
+    height: 70%;
+
+                /*Box formating*/
+    background: rgba(28, 121, 40, 0.81);
+    border-radius: var(--radius);
+
+                /*Box Alignment*/
+    justify-self: center;
+    align-self: center;
+           
+                /*Box Display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Header - Min Content Area - Title Box - Title (Shine & Restore)*/
+/*The page title */
+body header > div > section:nth-of-type(1) h1{
+            /*Positioning*/
+    text-align: center;
+           
+            /*Format*/
+    font-size: 4em;
+    
+}
+
+/*Header - Main Content Area - Funders + Icons*/
+/*The Box containing the funders and the icons*/
+body header > div > section:nth-of-type(2){
+                /*Box placement*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+                /*Box dimentions*/
+    width: 100%;
+    height: 100%;
+
+                /*Box formating*/
+    background: transparent;
+    border-radius: var(--radius);
+
+                /*Box Alignment*/
+    justify-self: center;
+    align-self: center;
+
+                /*Box Display*/
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2,50%);
+}
+
+
+/*Header - Main Content Area - Funders + Icons - Funders Box*/
+/*Content Box, containing the funders*/
+body header > div > section:nth-of-type(2) > div:nth-of-type(1){
+                /*Box placement*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-content: flex-end;
+    align-items: center;
+
+                /*Box Dimentions*/
+    width: 60%;
+    height: 70%;
+
+                /*Box Formating*/
+    background: white;
+    border-radius: var(--radius);
+
+                /*Box Alignment*/
+    justify-self: center;
+    align-self: center;
+
+                /*Box Display*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Header - Main Content Area- Funders + Icons - Funders Box - Title (Funders)*/
+/*Funders Title "Funders"*/
+body header > div > section:nth-of-type(2) > div:nth-of-type(1) > h3{
+            /*Text Position*/
+    text-align: center;
+
+            /*Text Format*/
+    font-size: 3rem;
+}
+
+/*Header - Main Content Are - Funders + Icons - Funders Box - People Box*/
+/*Box containing the people who funded the project*/
+body header > div > section:nth-of-type(2) > div:nth-of-type(1) > div{
+    
+            /*Display*/
+    display: flex;
+
+            /*Flex properties*/
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Header - Main Content Area - Funders + Icons - Funders Box - People Box - Person*/
+/*Box containing the person who funded the project*/
+body header > div > section:nth-of-type(2) > div:nth-of-type(1) > div > p{
+            /*Text Position*/
+    text-align: center;
+    margin: 0; 
+    
+            /*Text properties*/
+    line-height: 125%;
+}
+
+/*Header - Main Content Area - Funders + Icons - Icons Box*/
+/*Box containing all the icons*/
+body header > div > section:nth-of-type(2) > nav{
+            /*Box Position*/
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+
+
+            /*Box Dimentions*/   
+    width: 80%; 
+
+            /*Box Formating*/
+    background: transparent;
+    
+            /*Box Display*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Header - Main Content Area - Funders + Icons - Icons Box - Icon Box*/
+/*Box containing one one icon*/
+body header > div > section:nth-of-type(2) > nav > div{
+            /*Box Formating*/
+    background: rgba(128, 128, 128, 0.527);
+    border-radius: var(--radius);
+
+            /*Box Dimentions*/
+    height: 50%;
+    width: 60px;
+    
+            /*Box Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/*Header - Main Content Area - Right - Funders + Icons - Icons Box - Icon Box - Img*/
+/*The icon image*/
+body header > div > section:nth-of-type(2) > nav > div a img{
+        
+        justify-self: center;
+        align-self: center;
+                /*Image Format*/
+        border-radius: var(--radius);
+
+                /*Image Display*/
+        display: flex;
+
+                /*Image Properties*/
+        justify-content: center;
+        align-items: center;
+}
+
+
+
+/* ---------------------------- Header ---------------------------------------*/
+
+/*------------------------------ Body ----------------------------------------*/
+
+body main{
+    width: var(--width);
+}
+
+    /*Section 1*/
+    /*Section 1 is the first section of the body where we describe the wanted client, and who we are*/
+    body main > section:nth-of-type(1){
+                /*Section Dimentions*/
+        width: var(--width);
+        height: 25vw;
+
+                /*Section Formating*/
+        background: gray;
+                /*Box Display*/
+        display: flex;
+        
+                /*Flex Properties*/
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /*Main - This Section - Main Content Area*/
+    /*The Main Content Area*/
+    body main > section:nth-of-type(1) > div{
+                /*Box Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Box Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 5% 45% 45% 5%;
+        grid-template-rows: 100%;
+    }
+    
+
+    /*Who Are We*/
+        /*Main - This Section - Main Content Area - Who Are We Box*/
+        /*The Container containing who we are*/
+        body main > section:nth-of-type(1) > div > section:nth-of-type(1){
+                    /*Box Position*/
+            grid-column: 2/3;
+            grid-row: 1/2;
+
+                    /*Box Dimentions*/
+            width: 80%;
+            height: 80%;
+            justify-self: center;
+            align-self: center;
+
+
+                    /*Box Formating*/
+            background: rgba(197, 197, 197, 0.815);
+            border-radius: var(--radius);
+            
+                    /*Box Display*/
+            display: flex;
+            
+                    /*Flex Properties*/
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        /*Main - This Section - Main Content Area - Who Are We Box - Title Box*/
+        /*The Box containing the title "Who Are We"*/
+        body main > section:nth-of-type(1) > div > section:nth-of-type(1) > div{
+                    /*Box Dimentions*/
+            width: 50%;
+            height: 20%;
+
+                    /*Box Formating*/
+            background: rgba(28, 121, 40, 0.81);
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+            
+                    /*Flex Properties*/
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        /*Main - this Section - Main Content Area - Who Are We Box - Title Box - Title*/
+        /*The title "Who Are We"*/
+        body main > section:nth-of-type(1) > div > section:nth-of-type(1) > div > h3{
+                    /*Text Position*/
+            text-align: center;
+            margin: 0;
+        }
+
+        /*Main - This Section - Main Content Area - Who Are We Box - Content Box*/
+        /*The Box containing the content/text of who we are*/ /*Currently: Lorem*/
+        body main > section:nth-of-type(1) > div > section:nth-of-type(1) > p{
+                    /*Text Dimentions*/
+            width: 90%;
+            height: 60%;
+
+
+                    /*Text Position*/
+            text-align: center;
+
+                    /*Text Format*/
+            margin: 0;
+        }
+
+    /*Who We're Seeking*/
+        /*Main - This Section - Main Content Area - Who We're Seeking Box*/
+        /*Box containing the "Who We're Seeking" content*/
+        body main > section:nth-of-type(1) > div > section:nth-of-type(2){
+                     /*Box Position*/
+            grid-column: 3/4;
+            grid-row: 1/2;
+
+                     /*Box Dimentions*/
+            width: 80%;
+            height: 80%;
+            justify-self: center;
+            align-self: center;
+
+
+                    /*Box Formating*/
+            background: rgba(197, 197, 197, 0.815);
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+            
+                    /*Flex Properties*/
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        /*Main - This Section - Main Content Area - Who We're Seeking Box - Title Box*/
+        /*The Box containing the title "Who We're Seeking"*/
+        body main > section:nth-of-type(1) > div > section:nth-of-type(2) > div{
+                    /*Box Dimentions*/
+            width: 40%;
+            height: 20%;
+            justify-self: center;
+            align-self: center;
+
+                    /*Box Formating*/
+            background-color: antiquewhite;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+            
+                    /*Flex Properties*/
+            justify-content: center;
+            align-items: center;
+        }
+
+        /*Main - This Section - Main Content Area - Who We're Seeking Box - Title Box - Title*/
+        /*The title "Who We're Seeking"*/
+        body main > section:nth-of-type(1) > div > section:nth-of-type(2) > div > h3{
+
+        }
+
+        /*Main - This Section - Main Content Area - Who We're Seeking Box - Content Box*/
+        /*The Box containing the content/text of who we're seeking*/ /*Currently: Lorem*/
+        body main > section:nth-of-type(1) > div > section:nth-of-type(2) > p{
+                    /*Text Positioning*/
+            width: 90%;
+            text-align: center;
+
+        }
+
+    /*Section 2*/     /* ----------------------- */       /*Section 2*/     /* ----------------------- */
+    /*This section, section 2 hold the content "Why Us" where we try to convince the user that they need our services*/
+    body main > section:nth-of-type(2){
+                /*Box Dimentions*/
+        width: var(--width);
+        height: 25vw;
+
+                /*Box Formating*/
+        margin: 0;
+        background: lightgray;
+                
+                /*Box Display*/
+        display: grid;
+        
+                /*Grid Properties*/
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 100%;
+    }
+
+    /*Main - This Section - Title*/
+    /*The title "Why Us"*/
+    body main > section:nth-of-type(2) > h3{
+                    /*Title Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        justify-self: flex-end;
+        align-self: center;
+        transform: rotate(-90deg);
+
+                    /*Title Format*/
+        font-size: 4em;
+        margin: 0;
+        padding: 0;
+        width: max-content;
+        height: max-content;
+        text-decoration: underline;
+
+    }
+
+    /*Main - This Section - Content Box*/
+    /*The Box containing the content/text of why the user should choose us*/
+    body main > section:nth-of-type(2) > div{
+                /*Box Positon*/
+        grid-column: 2/3;
+        grid-row: 1/3;
+        align-self: center;
+        justify-self: center;
+        
+                /*Box Dimentions*/
+        width: 80%;
+
+                /*Box Formating*/
+        background: rgba(197, 197, 197, 0.815);
+        border-radius: var(--radius);
+
+                /*Box Display*/
+        display: flex;
+        
+                /*Flex Properties*/
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    /*Main - This Section - Content Box - Content*/
+    /*The text of why the user should choose us*/ /*Currently: Lorem*/
+    body main > section:nth-of-type(2) > div > p{
+        width: 90%;
+        overflow: scroll;
+    }
+
+    /*Section 3*/     /* ----------------------- */      /*Section 3*/     /* ----------------------- */
+    /*This section, section 3, holds the content about reviews where we show the photos about our jobs*/
+    /*Main - This Section*/
+    body main > section:nth-of-type(3){
+                /*Section Dimentions*/
+        width: var(--width);
+        height: auto;
+        min-height: 25vw;
+                
+                /*Section Format*/
+        margin: 0;
+        background: lightseagreen;
+
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 100%;
+    }
+
+    /*Before And After Photos*/
+        /*Main - Section 3 - This Section*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1){
+                    /*Section Position*/
+            grid-column: 1/2;
+            grid-row: 1/2;
+
+                    /*Box Format*/
+            background:transparent;
+
+                    /*Box Display*/
+            display: grid;
+
+                    /*Gird Properties*/
+            grid-template-columns: 100%;
+            grid-template-rows: 25% 75%;
+        }
+
+        /*Main - Section 3 - This Section - Title Box*/
+        /*The Box containing the title "Before And After Photos"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1){
+                    /*Box Position*/
+            grid-row: 1/2;
+            grid-column: 1/2;
+            justify-self: center;
+            align-self: center;
+
+                    /*Box Dimentions*/
+            width: 50%;
+            height: 50%;
+
+                    /*Box Format*/
+            background: greenyellow;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        /*Main - Section 3 - This Section - Title Box - Title*/
+        /*The Title: "Before And After Photos"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1) > h3{
+                    /*Text Position*/
+            text-align: center;
+                    
+                    /*Text Format*/
+            
+        }
+
+        /*Main - Section 3 - This Section - Content Box*/
+        /*The Content Box contains the Options and the Image*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2){
+                    /*Box Position*/
+            grid-column: 1/2;
+            grid-row: 2/3;
+
+                    /*Box Format*/
+            background: transparent;
+
+                    /*Box Display*/
+            display: grid;
+
+                    /*Grid Properties*/
+            grid-template-columns: 40% 60%;
+            grid-template-rows: 100%;
+
+        }
+
+        /*Main - Section 3 - This Section - Content Container - Options Container */
+        /*The Box containing all options*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1){
+                    /*Section Position*/
+            grid-column: 1/2;
+            grid-row: 1/2;
+
+                    /*Section Format*/
+            background: transparent;
+
+                    /*Section Display*/
+            display: grid;
+            
+                    /*Grid Properties*/
+            grid-template-columns: 100%;
+            grid-template-rows: 20% 80%;
+        }
+
+        /*Main - Section 3 - This Section - Content Container - Options Box - Option Title*/
+        /*This Box contains the Title: "Choose"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(1){
+                    /*Box Position*/
+            grid-column: 1/2;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: center;
+
+                    /*Box Dimentions*/
+            width: 50%;
+            height: 80%;
+
+                    /*Box Format*/
+            background: white;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        /*Main - Section 3 - This Section - Content Container - Options Box - Option Title - Title*/
+        /*The Title: "Choose"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(1) > h3{
+                    /*Text Position*/
+            text-align: center;
+
+                    /*Text Format*/
+            font-size: default;
+        }
+
+        /*Main - Section 3 - This Section - Content Container - Options Container - Options Box*/
+        /*The Box containing the options*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(2){
+                    /*Box Position*/
+            grid-column: 1/2;
+            grid-row: 2/3;
+
+                    /*Box Format*/
+            background: transparent;
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        /*Main - Section 3 - This Section - Content Container - Options Container - Options Box - Option*/
+        /*The option itself*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(2) > button{
+                    /*Button Format*/
+            border-radius: var(--radius);
+        }  /*Hover Animation*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(2) > button:hover{
+            background: gray;
+        }
+
+        /*Main - Section 3 - This Section - Content Container - Image Box*/
+        /*The Box containing the image*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(2){
+                    /*Box Postion*/
+            grid-column: 2/3;
+            grid-row: 1/2;
+            justify-self: flex-start;
+            align-self: center;
+
+                    /*Box Dimentions*/
+            height: 92%;
+            width: 80%;
+
+                    /*Box Format*/
+            background: tomato;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        /*Main - Section 3 - This Section - Content Container - Image Box - Image*/
+        /*The Image*/
+        body main > section:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(2) > img{
+                    /*Image Dimentions*/
+            width: 90%;
+            height: 90%;
+        }
+
+    /*Review By Past Clients*/
+        /*Main - Section 3 - This Section*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2){
+                    /*Section Dimentions*/
+            width: 100%;
+            height: 100%;
+
+                    /*Section Format*/
+            background: grey;
+
+                    /*Section Display*/
+            display: grid;
+
+                    /*Grid Properties*/
+            grid-template-columns: 100%;
+            grid-template-rows: 30% 70%;
+        }
+
+        /*Main - Section 3 - This Section - Title Box*/
+        /*The Box containing the title "Review By Past Clients"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(1){
+                    /*Section Position*/
+            grid-column: 1/2;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: center;
+
+                    /*Section Dimentions*/
+            width: 50%;
+            height: 70%;
+                    /*Section Format*/
+            background: lightpink;
+            border-radius: var(--radius);
+            
+                    /*Section Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            justify-content: center;
+            align-items: center;
+        }
+
+        /*Main - Section 3 - This Section - Title Box - Title*/
+        /*The Title: "Review By Past Clients"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(1) > h3{
+                    /*Text Position*/
+            text-align: center;
+
+                    /*Text Display*/
+        }
+
+        /*Main - Section 3 - This Section - Content Box*/
+        /*The Box containing the reviews, service time, and stars given*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2){
+                    /*Content Position*/
+            grid-column: 1/2;
+            grid-row: 2/3;
+            
+                    /*Content Dimentions*/
+            width: 100%;
+            height: 100%;
+
+                    /*Content Format*/
+            background: transparent;
+            border-radius: var(--radius);
+
+                    /*Content Display*/
+            display: grid;
+
+                    /*Grid Properties*/
+            grid-template-columns: 65% 35%;
+            grid-template-rows: 100%;
+
+        }
+                    /*---------------------   Review Box   -------------------------*/
+
+        /*Main - Section 3 - This Section - Content Box - Review Box (Main Content Area)*/                        /*Review Box*/
+        /*This Main Content Area Box, contains the review and who its written by*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1){
+                    /*Box Position*/
+            grid-column: 1/2;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: center;
+
+                    /*Box Dimentions*/
+            width: 75%;
+            height: 90%;
+
+                    /*Box Format*/
+            background: thistle;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+
+        /*Main - Section 3 - This Section - Content Box - Review Box (Main Content Area) - Title Box */             /*Review Box*/
+        /*The Box containing the title "Review"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1){
+                    /*Box Dimention*/
+            width: 85%;
+            height: auto;
+
+                    /*Box Format*/
+            background: teal;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            justify-content: center;
+            align-items: center;
+        }
+
+        /*Main - Section 3 - This Section - Content Box - Review Box (Main Content Area) - Title Box - Title*/      /*Review Box*/
+        /*The Title: "Review"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3{
+                    /*Text Position*/
+            text-align: center;
+        }
+
+        /*Main - Section 3 - This Section - Content Box - Review Box (Main Content Area) - Content Box*/            /*Review Box*/
+        /*The Box containing the review*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2){
+                    /*Box Dimentions*/
+            width: 85%;
+            height: 60%;
+
+                    /*Box Format*/
+            background-color: teal;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            justify-content: center;
+            align-items: center;
+        }
+
+        /*Main - Section 3 - This Section - Content Box - Review Box (Main Content Area) - Content Box - Content*/  /*Review Box*/
+        /*The review itself*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p{
+                    /*Text Position*/
+            text-align: center;
+
+                    /*Text Format*/
+            width: 90%;
+
+                    /*Text Display*/
+            display: default;
+        }
+                    /* ----------------------------  /Review Box  -----------------------------------*/
+
+        /*Main - Section 3 - This Section - Content Box - Others*/
+        /*This Box contains the Service Titme and Stars Given*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > article{
+                    /*Section Position*/
+            grid-column: 2/3;
+            grid-row: 1/2;
+
+                    /*Section Dimentions*/
+            width: 100%;
+            height: 100%;
+
+                    /*Section Format*/
+            background: transparent;
+            border-radius: var(--radius);
+
+                    /*Section Display*/
+            display: grid;
+
+                    /*Grid Properties*/
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(2, 50%);
+        }
+
+                    /* ---------------------------- Service Box ------------------------------------*/
+
+        /*Main - Section 3 - This Section - Content Box - Others - Service Time (Main Content Area)*/                        /*Service Time*/
+        /*The Box containing the service time*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > article > section:nth-of-type(1){
+                    /*Box Position*/
+            grid-column: 1/2;
+            grid-row: 1/2;
+            justify-self: center;
+            align-self: center;
+
+                    /*Box Dimentions*/
+            width: 70%;
+            height: 80%;
+
+                    /*Box Format*/
+            background: teal;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        /*Main - Section 3 - This Section - Content Box - Others - Service Time (Main Content Area) - Title */              /*Service Time*/
+        /*The title "Service Time"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > article > section:nth-of-type(1) > h3{
+                    /*Text Position*/
+            text-align: center;
+
+                    /*Text Format*/
+            margin: 0;
+        }
+        
+        /*Main - Section 3 - This Section - Content Box - Others - Service Time (Main Content Area) - Time*/               /*Service Time*/
+        /*The time the service took*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > article> section:nth-of-type(1) > p{
+                    /*Text Position*/
+            text-align: center;
+
+                    /*Text Format*/
+                    margin: 0;
+            font-size: 175%;
+        }
+
+                /* ---------------------------- /Service Box ------------------------------------*/
+
+                /* ---------------------------- Stars Given ------------------------------------*/
+
+        /*Main - Section 3 - This Section - Content Box - Others - Stars Given (Main Content Area)*/                           /*Stars Given*/
+        /*The Box containing the stars given*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > article > section:nth-of-type(2){
+                    /*Box Position*/
+            grid-column: 1/2;
+            grid-row: 2/3;
+            justify-self: center;
+            align-self: center;
+
+                    /*Box Dimentions*/
+            width: 70%;
+            height: 80%;
+
+                    /*Box Format*/
+            background: teal;
+            border-radius: var(--radius);
+
+                    /*Box Display*/
+            display: flex;
+
+                    /*Flex Properties*/
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        /*Main - Section 3 - This Section - Content Box - Others - Stars Given (Main Content Area) - Title */                 /*Stars Given*/
+        /*The title "Stars Given"*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > article > section:nth-of-type(2) > h3{
+                    /*Title Format*/
+            margin: 0;
+
+        }
+
+        /*Main - Section 3 - This Section - Content Box - Others - Stars Given (Main Content Area) - Stars*/                 /*Stars Given*/
+        /*The image of stars given*/
+        body main > section:nth-of-type(3) > section:nth-of-type(2) > section:nth-of-type(2) > article > section:nth-of-type(2) > img{
+                    /*Image Format*/
+            margin: 0;
+            
+        }
+
+/*-----------------------------------------------------  Body --------------------------------------------------------*/
+
+/*----------------------------------------------------  Footer  -----------------------------------------------------------*/
+
+body footer{
+            /*Footer Dimentions*/
+    width: var(--width);
+    height: 12vh;
+
+            /*Footer Format*/
+    background: aquamarine;
+    
+            /*Footer Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+}
+
+/*Footer - Socials Box*/
+/*The Box containing the social media platforms */
+body footer > div:nth-of-type(1){
+            /*Icons Positions*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+            /*Icons Dimention*/
+    width: 100%;
+    height: 100%;
+
+            /*Icons Format*/
+    background: transparent;
+
+            /*Icons Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Footer - Socials - Icons*/
+/*The  universal img tag that applies its content on all images*/
+body footer > div:nth-of-type(1) > img{
+
+        
+                /*Image Format*/
+        border-radius: var(--radius);
+}
+
+/*Footer - Socials - Icons: TikTok*/
+/*The TikTok icon*/           /*Specified*/
+body footer > div:nth-of-type(1) > img:nth-of-type(1){
+
+}
+
+/*Footer - Socials - Icons: X*/
+/*The X icon*/               /*Specified*/
+body footer > div:nth-of-type(1) > img:nth-of-type(2){
+
+}
+
+/*Footer - Socials - Icons: Instagram*/
+/*The Instagram icon*/          /*Specified*/
+body footer > div:nth-of-type(1) > img:nth-of-type(3){
+
+}
+
+/*Footer - Socials - Icons: Facebook*/
+/*The Facebook icon*/           /*Specified*/
+body footer > div:nth-of-type(1) > img:nth-of-type(4){
+
+}
+
+/*Footer - Content Container (Main Content Area)*/
+/*The Box containing the content of the footer*/
+body footer > div:nth-of-type(2){
+            /*Box Position*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Box Dimentions*/
+    width: 60%;
+    height: 70%;
+
+            /*Box Format*/
+    background: indianred;
+    border-radius: var(--radius);
+
+            /*Box Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer - Content Container - Title*/
+/*The title "We gonna make bank"*/
+body footer > div:nth-of-type(2) > h5{
+            /*Text Format*/
+    margin: 0;
+
+            /*Text Position*/
+    text-align: center;
+}
