@@ -1,0 +1,993 @@
+/*------------------------------------ Variables ----------------------------------------------*/
+
+:root{
+ --radius: 10px;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+}
+
+/*------------------------------------- /Variables ----------------------------------------------*/
+
+/*---------------------------------------- Header ------------------------------------------------*/
+
+body header{
+            /*Header Dimentions*/
+    width: 100%;
+    height: 15vh;
+
+            /*Header Format*/
+    background: teal;
+
+            /*Header Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+}
+
+/*Header - Title Box*/
+/*This is the background of the title*/
+body header > div{
+            /*Title Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Title Dimentions*/
+    width: 60%;
+    height: 70%;
+
+            /*Title Format*/
+    background: turquoise;
+    border-radius: var(--radius);
+
+            /*Title Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Header - Title Box - Title*/
+/*This is the title of the page "Shine & Restore"*/
+body header > div > h1{
+            /*Text Position*/
+    text-align: center;
+
+            /*Text Format*/
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Header - Navegation*/
+/*this is the navegation of the webpage consisting of icons*/
+body header > nav{
+            /*Navegation Position*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Navegation Dimentions*/
+    width: 90%;
+    height: 80%;
+
+            /*Navegation Format*/
+    background: turquoise;
+    border-radius: var(--radius);
+
+            /*Navegation Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Header - Navegation - Icons (Background)*/
+/*This is the background of the icons of the navegation*/
+body header > nav a{
+            /*Icons Position*/
+    justify-self: center;
+    align-self: center;
+
+            /*Icons Dimentions*/
+    width: 20%;
+    height: 80%;
+
+            /*Icons Format*/
+    background: rgb(153, 209, 203);
+    border-radius: var(--radius);
+
+            /*Icons Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Navegation - Icons*/
+/*This is the icons of the navegation*/
+body header > nav > a img{
+            /*Text Position*/
+    text-align: center;
+
+            /*Image Dimentions*/
+    margin: 0;
+    padding: 0;
+
+            /*Image Format*/
+    border-radius: var(--radius);
+}
+
+/*Header - Navegation - Icon: Home*/
+/*This is the icon of the home page*/   /*Specified*/
+body header > nav > a:nth-of-type(1) img{
+
+}
+
+/*Header - Navegation - Icon: Account*/
+/*This is the icon of the account page*/   /*Specified*/
+body header > nav > a:nth-of-type(2) img{
+
+}
+
+/*Header - Navegation - Icon: About Us*/
+/*This is the icon of the about us page*/   /*Specified*/
+body header > nav > a:nth-of-type(3) img{
+
+}
+
+/*Header - Navegation - Icon: Shopping*/
+/*This is the icon of the shopping page*/   /*Specified*/
+body header > nav > a:nth-of-type(4) img{
+
+}
+
+/*---------------------------------------- /Header ------------------------------------------------*/
+
+/*---------------------------------------- Body --------------------------------------------------*/
+
+body main{
+
+}
+
+/*Secition 1*/ /*Name: About Us*/ /*Description:*/
+    /*Body - This Section*/
+    body main > section:nth-of-type(1){
+                /*Section Dimentions*/
+        width: 100%;
+        height: 30vh;
+
+                /*Section Format*/
+        background: rgb(104, 104, 104);
+
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 15% 85%;
+        grid-template-rows: 100%;
+    }
+
+    /*Body - This Section - Title Box*/
+    /*This is the section that contains the Title of this section*/
+    body main > section:nth-of-type(1) > div:nth-of-type(1){
+                /*Section Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Section Dimentions*/
+        width: 60%;
+        height: 80%;
+
+                /*Sction Format*/
+        background: rgb(136, 136, 220);
+        border-radius: var(--radius);
+
+                /*Section Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+                
+    }
+
+    /*Body - This Section - Title Box - Title*/
+    /*This is the title "About Us"*/
+    body main > section:nth-of-type(1) > div:nth-of-type(1) > h3{
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        width: max-content;
+        height: max-content;
+        margin: 0;
+        padding: 0;
+        transform: rotate(270deg);
+        font-size: 1.3rem;
+        color: rgba(15, 70, 70, 0.822);
+    }
+
+    /*Body - This Section -  All Desciptions*/
+    /*This is the background of the title*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2){
+                /*Content Position*/
+        grid-column: 2;
+        grid-row: 1;
+
+                /*Content Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Content Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    /*Body - This Section - All Boxes*/
+    /*This is the univercel selector for each box*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section{
+                /*Box Dimentions*/
+        width: 30%;
+        height: 80%;
+
+                /*Box Format*/
+        background: teal;
+        border-radius: var(--radius);
+
+                /*Box Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 80%;
+    }
+
+
+    /*Body - This Section - Everones Box - Title Box*/
+    /*This is the background of the title for each box*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section > div:nth-of-type(1){
+                /*Box Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Box Dimentions*/
+        width: 50%;
+        height: 60%;
+
+                /*Box Formating*/
+        background: lightseagreen;
+        border-radius: var(--radius);
+
+                /*Box Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /*Body - This Section - Everyones Box - Title Box - Title*/
+    /*The Title of all Section*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2)> section > div:nth-of-type(1) > h3{
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Body - This Section - Everyones Box - Content Box*/
+    /*This content box contains the description for everyone*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section > div:nth-of-type(2){
+                /*Box Position*/
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: flex-start;
+
+                /*Box Dimentions*/
+        width: 80%;
+        height: 90%;
+
+                /*Box Format*/
+        background: lightblue;
+        border-radius: var(--radius);
+
+                /*Box Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /*Body - This Section - Everyones Box - Content Box - Text*/
+    /*The description for each person*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section > div:nth-of-type(2) > p{
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        margin: 0;
+        padding: 0;
+        line-height: 120%;
+
+    }
+
+    /*Body - This Section - Michaels Box*/
+    /*This is "Michael's" box*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1){
+
+    }
+
+    /*Body - This Section - Michaels Box - Title Box*/
+    /*This is the background of the title*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(1){
+
+
+    }
+
+    /*Body - This Section - Michaels Box - Title Box - Title*/
+    /*The Title of this Section*/ /*Title: "About Us"*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2)> section:nth-of-type(1) > div:nth-of-type(1) > h3{
+        
+    }
+
+    /*Body - This Section - Michaels Box - Content Box*/
+    /*This content box contains the description of Michael*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(2){
+
+    }
+    /*Body - This Section - Michaels Box - Content Box -  Text*/
+    /*The description of Michael*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(2) > p{
+    
+    }
+
+    /*Body - This Section - Remys Box*/
+    /*This Box contains the Remys elements*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(2){
+
+    }
+
+    /*Body - This Section - Remys Box - Title Box*/
+    /*This Box contains the title*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1){
+
+    }
+
+    /*Body - This Section - Remys Box - Title Box - Title*/
+    /*This is the title for remys box*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(1) > h3{
+
+    }
+
+    /*Body - This Section - Remys Box - Content Box*/
+    /*This contains the discriptions of Remy*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(2){
+
+    }
+
+    /*Body - This Section - Remy Box - Content Box - content*/
+    /*This is the description of Remy*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(2) > div:nth-of-type(2) > p{
+
+    }
+
+    /*Body - This Section - Robbies Box*/
+    /*This is the box containing Robbies information*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(3){
+
+    }
+
+    /*Body - This Section - Robbies Box - Title Box*/
+    /*This container has Robbies title*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(3) > div:nth-of-type(1){
+
+    }
+
+    /*Body - This Section - Robbies Box - Title Box - Title*/
+    /*This is Robbies Title*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(3) > div:nth-of-type(1) > h3{
+
+    }
+
+    /*Body - This Section - Robbies Box - Content Box*/
+    /*This Box contains the discription of Robbie*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(3) > div:nth-of-type(2){
+
+    }
+
+    /*Body - This Section - Robbies Box - Content Box - Text*/
+    /*This is the description of Robbie*/
+    body main > section:nth-of-type(1) > div:nth-of-type(2) > section:nth-of-type(3) > div:nth-of-type(2) > p{
+
+    }
+
+
+
+/*Section 2*/  /*Name: "Our Objective"*/  /*Description: */ /*-------------------------- Section 2 ----------------------------/*
+    /*Body - This Section*/
+    body main > section:nth-of-type(2){
+                /*Section Dimentions*/
+        width: 100%;
+        height: 30vh;
+
+                /*Section Format*/
+        background: rgb(203, 203, 203);
+        
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 85% 15%;
+    }
+
+    /*Body main - Section 2 - This Section*/
+    /*This is the background of the title*/
+    body main > section:nth-of-type(2) > section:nth-of-type(2){
+                /*Section Dimentions*/
+        width: 100%;
+        height: 100%;
+        
+
+                /*Section Display*/
+        background: transparent;
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Body main - This Section - Title Box*/
+    /*This is the box that holds the title of the web page*/
+    body main > section:nth-of-type(2) > section:nth-of-type(2) > div{
+                /*Title Position*/
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Title Dimentions*/
+        width: 60%;
+        height: 70%;
+
+                /*Title Format*/
+        background: rgb(153, 209, 203);
+        border-radius: var(--radius);
+
+                /*Title Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Body - This Section - Title*/
+    /*The Title of this Section which is "Our Objective"*/
+    body main > section:nth-of-type(2) > section:nth-of-type(2) > div > h3{
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        margin: 0;
+        padding: 0;
+        transform: rotate(90deg);
+    }
+
+    /*Body - This Section - Content Box*/
+    /*This is the content box that holds all the description*/
+    body main > section:nth-of-type(2) > section:nth-of-type(1){
+                /*Content Box Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Content Box Format*/
+        background: transparent;
+
+                /*Content Box Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns:  repeat(3, calc(100%/3));  
+        grid-template-rows: 100%;
+    }
+
+    /*Body - This Section - Content Box - Description Box*/
+    /*The Content box that holds all the paragraph element*/
+    body main > section:nth-of-type(2) > section:nth-of-type(1) > div{
+                /*Box Dimentions*/
+        width: 90%;
+        height: 90%;
+        justify-self: center;
+        align-self: center;
+
+
+                /*Box Format*/
+        background: gray;
+        border-radius: var(--radius);
+            
+                /*Box Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /*Body - This Section - Content Box - Description Box - Text*/
+    /*The paragraph element of the description*/
+    body main > section:nth-of-type(2) > section:nth-of-type(1) > div > p{
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Body - This Section - Content Box - Description Box: First */
+    /*The first description box*/    /*Specified*/
+    body main > section:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(1){
+                /*First Box Position*/
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+
+    /*Body - This Section - Content Box - Description Box: Second */
+    /*The second description box*/    /*Specified*/
+    body main > section:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(2){
+                /*Second Box Position*/
+        grid-column: 2;
+        grid-row: 1/2;
+    }
+
+    /*Body - This Section - Content Box - Description Box: Third */
+    /*The third description box*/    /*Specified*/
+    body main > section:nth-of-type(2) > section:nth-of-type(1) > div:nth-of-type(3){
+                /*Third Box Position*/
+        grid-column: 3;
+        grid-row: 1/2;
+    }
+    
+    /*Body - This Section - Content Box - Content*/
+/*Section 3*/  /*Name: Where We Started*/ /*Description: */
+    /*Body - This Section*/
+    body main > section:nth-of-type(3){
+                /*Section Dimentions*/
+        width: 100%;
+        height: 30vh;
+
+                /*Section Format*/
+        background: rgb(161, 70, 70);
+
+                /*Section Display*/
+        display:grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 2% 32% 32% 32% 2%;
+        grid-template-rows: 100%;
+        
+    }
+
+    /*Body - Section 3 - This Section*/
+    /*This contains the "We're We Started" elements*/
+    body main > section:nth-of-type(3) > section{
+                /*Section Position*/
+        justify-self: center;
+        align-self: center;
+                /*Section Dimentions*/
+        width: 90%;
+        height: 90%;
+
+                /*Section Format*/
+        background: rgb(203, 203, 203);
+        border-radius: var(--radius);
+
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 25% 3% 72%;
+    }
+
+    /*Body - Section 3 - This Section - All Elements*/
+    /*This selector targets all the elements "*/
+    body main > section:nth-of-type(3) > section * {
+                /*Text Position*/
+        text-align: center;
+        grid-column: 2;
+
+                /*Text Format*/
+        margin: 0;
+        padding: 0;
+
+    }
+
+    /*Body - Section 3 - This Section - hr*/
+    /*This is the line, sperator*/
+    body main > section:nth-of-type(3) > section > hr{
+                /*Line Position*/
+        grid-row: 2;
+        justify-self: center;
+        align-self: center;
+
+                /*Line Dimentions*/
+        width: 80%;
+
+                /*Line Format*/
+        background: black;
+        height: 2px;
+
+                /*Line Display*/
+        display: block;
+    }
+
+    /*Body - Section 3 - This Section: We're We Started*/
+    /*This contains the elements of the section "We're We Started"*/
+    body main > section:nth-of-type(3) > section:nth-of-type(1){
+                /*Section Position*/
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    /*Body - Section 3 - This Section: Our plan*/
+    /*This contains the title content of this section*/
+    body main > section:nth-of-type(3) > section:nth-of-type(2){
+                /*Section Position*/
+        grid-column: 3/4;
+        grid-row: 1/2;
+
+                /*Section Format, Dimentions*/
+        /*inherent*/
+
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+    }
+
+    /*body - Section 3 - This Section: Our Plan - Title Box*/
+    /*This is the box contains the title for this section*/
+    body main > section:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(1){
+                /*Box Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Box Dimentions*/
+        width: 60%;
+        height: 80%;
+
+                /*Box Format*/
+        background: gray;
+        border-radius: var(--radius);
+
+                /*Box Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /*Body - Section 3 - This Section: Our Plans - Title Box - Title*/
+    /*This is the title "Our Plans"*/
+    body main > section:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(1) > h3{
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Body - Section 3 - This Section: Our Plans - Content Box*/
+    /*This holds the content for desctions of plans*/
+    body main > section:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2){
+                /*Box Position*/
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: center;
+
+                /*Box Dimentions*/
+        width: 85%;
+        height: 70%;
+
+                /*Box Format*/
+        background: gray;
+        border-radius: var(--radius);
+
+                /*Box Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-self: center;
+        align-self: center;
+    }
+
+    /*Body - Section 3 - This Section: Our Plans - Content Box - Text*/
+    /*This is the description of the paragraph*/
+    body main > section:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > p{
+                /*Text Position*/
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+
+                /*Text Dimentions*/
+        width: 90%;
+        height: 90%;
+
+                /*Text Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    /*Body - Section 3 - This Section: The Future*/
+    /*This contains the "Future content" of this section*/
+    body main > section:nth-of-type(3) > section:nth-of-type(3){
+                /*Section Position*/
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+
+    /*Body - Section 3 - This Section - Title*/
+    /*This selector targets the Title: We're We Started*/
+    body main > section:nth-of-type(3) > section > h4{
+                /*Text Position*/
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: center;
+        align-self: center;
+        
+                /*Text Format*/
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Body - Section 3 - This Section - Content*/
+    /*This is the content of the We're We Started*/
+    body main > section:nth-of-type(3) > section > p{
+                /*Text Position*/
+        grid-column: 2;
+        grid-row: 3;
+        justify-self: center;
+        align-self: center;
+
+                /*Text Format*/
+        width: 90%;
+
+
+    }
+   
+
+/*---------------------------------------- /Body -------------------------------------------------*/
+
+/*---------------------------------------- Footer ------------------------------------------------*/
+body footer{
+            /*Footer Dimentions*/
+    width: 100%;
+    height: 18vh;
+
+            /*Footer Format*/
+    background: teal;
+
+            /*Footer Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+}
+
+/*Footer - Socials*/
+/*The social media icons*/
+body footer > div:nth-of-type(1){
+            /*Socials Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Socials Dimentions*/
+    width: 80%;
+    height: 80%;
+
+            /*Socials Format*/
+    background: turquoise;
+    border-radius: var(--radius);
+
+            /*Socials Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/*Footer - Scoials - Icons (Background)*/
+/*The background of the icon*/
+body footer > div > a{
+            /*Icon Position*/
+    justify-self: center;
+    align-self: center;
+
+            /*Icon Dimentions*/
+    width: 20%;
+    height: 80%;
+
+            /*Icon Format*/
+    background: rgb(153, 209, 203);
+    border-radius: var(--radius);
+
+            /*Icon Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer - Socials - Icons*/
+/*The social media icons*/
+body footer > div > a > img{
+            /*Image Format*/
+    border-radius: var(--radius);
+
+                /*Image Dimentions*/
+    width: 70%;  
+    height: auto;
+
+                /*Image Display Position*/
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+
+        
+}
+
+/*Footer - Socials - Icon: TikTok*/
+/*The TikTok icon*/
+body footer > div > a:nth-of-type(1) img{
+
+}
+
+/*Footer - Socials - Icon: X*/
+/*The X icon*/
+body footer > div > a:nth-of-type(2) img{
+
+}
+
+/*Footer - Socials - Icon: Insta*/
+/*The Insta icon*/
+body footer > div > a:nth-of-type(3) img{
+
+}
+
+/*Footer - Socials - Icon: Facebook*/
+/*The facebook icon*/
+body footer > div > a:nth-of-type(4) img{
+
+}
+
+/*Footer - Content Box*/
+/*The content box for the rederectory to the home page*/
+body footer > div:nth-of-type(2){
+            /*Section Position*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Section Dimentions*/
+    width: 80%;
+    height: 80%;
+
+            /*Section Format*/
+    background: rgb(153, 209, 203);
+    border-radius: var(--radius);
+
+            /*Section Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Footer - Content Box - Title*/
+/*The title of the content box*/
+body footer > div:nth-of-type(2) > h5{
+            /*Text Position*/
+    text-align: center;
+
+            /*Text Format*/
+    margin: 0;
+    padding: 3%;
+
+    font-size: 2rem;
+
+    background: teal;
+    border-radius: var(--radius);
+
+}
+
+/*Footer - Content Box - Icon (Background)*/
+/*This is the bakcground of the image*/
+body footer > div:nth-of-type(2) a{
+            /*Box Dimentions*/
+    width: 40%;
+    height: 80%;
+
+            /*Box Format*/
+    background: teal;
+    border-radius: var(--radius);
+
+            /*Box Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer - Content Box - Icon*/
+/*The home icon for the link for going back*/
+body footer > div:nth-of-type(2) img{
+            /*Image Position*/
+    justify-self: center;
+    align-self: center;
+
+            /*Image Dimentions*/
+    width: 90%;
+    height: 90%;
+
+            /*Image Format*/
+    border-radius: var(--radius);
+
+            /*Text Format*/
+    text-align: center;
+
+}
