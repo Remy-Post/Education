@@ -1,0 +1,806 @@
+/*------------------------------------ Imports -----------------------------------------------*/
+@import url("../Variables.css");
+/*----------------------------------- /Imports  ----------------------------------------------*/
+
+/*----------------------------------- Variables ----------------------------------------------*/
+
+:root{
+--cPrimaryBg: #3498db;
+--cSecondairyBg: #2ecc71;
+--cText: #2c3e50;
+--cHeading: #e74c3c;
+--cAccent: #9b59b6;
+--cBorder: #34495e;
+/*
+        Variables
+Format: |color|name| Optional: description|
+        =>     |c||Text|
+        =>     |c||Prim|Bg|
+*/
+  --radius: 10px;
+}
+
+html{
+    width: 100%;
+    height: max-content;
+}
+
+body{
+
+}
+
+/*------------------------------------ Variables ----------------------------------------------*/
+
+/*-------------------------------------- Header ------------------------------------------------*/
+
+/*Header*/
+/*The Header of the page, the top of the page contains the page title and navegation menu*/
+body header{
+            /*Header Dimentions*/
+    width: 100%;
+    height: 15vh;
+
+            /*Header Format*/
+    background: gray;
+    
+            /*Header Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+}
+
+/*Header - Page Title Box*/
+/*The box that contains the page title*/
+body header > div:nth-of-type(1){
+            /*Box Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+            /*Box Dimentions*/
+    width: 60%;
+    height: 60%;
+
+            /*Box Format*/
+    background: var(--cPrimaryBg);
+    border-radius: var(--radius);
+
+            /*Box Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Page Title Box - Page Title*/
+/*The title: "Accounts"*/
+body header > div:nth-of-type(1) > h1{
+            /*Text Position*/
+    text-align: center;
+
+            /*Text Dimentions*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Header - Navegation*/
+/*The navegation menu which are icons*/
+body header > nav{
+            /*Nav Position*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+            /*Nav Dimentions*/
+    width: 100%;
+    height: 100%;
+
+            /*Nav Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Header - Navegation - Icons (Background)*/
+/*The icons of the navegation menu (Background)*/
+body header > nav > a{
+            /*Box Dimentions*/
+    width: 18%;
+    height: 70%;
+    justify-self: center;
+    align-self: center;
+
+            /*Box Format*/
+    background: var(--cPrimaryBg);
+    border-radius: var(--radius);
+
+            /*Box Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Navegation - Icons*/
+/*The icons of the navegation menu*/
+body header > nav > a img{
+            /*Image Dimentions*/
+    width: 50%;
+    height: auto;
+
+            /*Image Format*/
+    border-radius: var(--radius);
+
+            /*Image Display*/
+
+}
+
+/*Header - Navegation - Icons: Home*/
+/*The icon of the home page*/ /*Specified*/
+body header > nav > a:nth-of-type(1) img{
+
+}
+
+/*Header - Navegation - Icons: Account*/
+/*The icon of the account page*/ /*Specified*/
+body header > nav > a:nth-of-type(2) img{
+        
+}
+
+/*Header - Navegation - Icons: About Us*/
+/*The icon of the about us page*/ /*Specified*/
+body header > nav > a:nth-of-type(3) img{
+
+}
+
+/*Header - Navegation - Icons: Shopping*/
+/*The icon of the shopping page*/ /*Specified*/
+body header > nav > a:nth-of-type(4) img{
+
+}
+
+/*-------------------------------------- Header ------------------------------------------------*/
+
+/*--------------------------------------- Body --------------------------------------------------*/
+
+body main{
+            /*Main Dimentions*/
+    height: 50vh;
+    width: 100%;
+    
+            /*Main Format*/
+    background: lawngreen;
+
+            /*Main Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+}
+
+/*Section 1*/
+    /*The first section of the page containing contents of Creating An New Account*/
+    /*Body - This Section*/
+    body main > section:nth-of-type(1){
+                /*Section Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+
+                /*Section Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Section Format*/
+        background: var(--cSecondairyBg);
+        
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+    }
+
+    /*Body - This Section - Title*/
+    /*The title of the section: "Creating An Account"*/
+    body main > section:nth-of-type(1) > h3{
+                /*Text Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+
+
+                /*Text Format*/
+        font-size: 3rem;
+
+        margin: 0;
+        padding: 3%;
+
+        background: beige;
+        border-radius: var(--radius);
+    }
+
+
+    /*Body - This Section - Form <=Data=> 
+        /*          
+                Input 1: Username
+                Input 2: Password
+                   -------------
+                Input 3: Submit
+        
+                Username: type="text" name="username" id="username" placeholder="Username"
+                Password: type="password" name="password" id="password" palceholder="Password"
+        *//*
+    */
+
+    /*Body - This Section - Form*/
+    /*The form that contains the input fields for creating an account*/
+    body main > section:nth-of-type(1) > form{
+                /*Form Position*/
+        grid-column: 1/2;
+        grid-row: 2/3;
+
+                /*Form Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Form Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    /*Body - This Section - Form - Inputs*/
+    /*The input for creating an account consisting of the username and password*/ /*Specified*/
+    body main > section:nth-of-type(1) > form > input:nth-of-type(1), body main > section:nth-of-type(1) > form > input:nth-of-type(2){
+                /*Button Dimentions*/
+        width: 70%;
+        height: 30%;
+
+                /*Button Format*/
+        background: var(--cPrimaryBg);
+        border-radius: calc(var(--radius)*2);
+        border: 0;
+
+                /*Text Position*/
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    /*Body - This Section - Form - Inputs: Username*/
+    /*The input for the username*/ /*Specified*/
+    body main > section:nth-of-type(1) > form > input:nth-of-type(1){
+
+    }
+
+    /*Body - This Section - Form - Inputs: Password*/
+    /*The input for the password*/ /*Specified*/
+    body main > section:nth-of-type(1) > form > input:nth-of-type(2){
+
+    }
+
+    /*Body - This Section - Form - Inputs: Submit*/
+    /*The submit button for creating an account*/ /*Specified*/
+    body main > section:nth-of-type(1) > form > input:nth-of-type(3){
+                /*Submit Position*/
+        justify-self: center;
+        align-self: center;
+
+                /*Submit Dimentions*/
+        width: 30%;
+        height: 10%;
+
+                /*Submit Format*/
+        border-radius: calc(var(--radius) * 2.5);
+        border: 0;
+    }
+
+/*Section 2*/
+    /*This section is the log in sections for those who already have an account*/
+    /*Body - This Section*/
+    body main > section:nth-of-type(2){
+                /*Section Position*/
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+                /*Section Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Section Format*/
+        background: transparent;
+
+                /*Section Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+    }
+
+    /*Body - This Section - Title*/
+    /*The title of the section: "Log In"*/
+    body main > section:nth-of-type(2) > h3{
+                /*Title Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Title Dimentions*/
+        width: 60%;
+        height: 70%;
+        margin: 0;
+
+                /*Title Format*/
+        background: rgba(49, 74, 11, 0.37);
+        border-radius: var(--radius);
+
+                /*Title Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+
+                /*Text Position*/
+        text-align: center;
+
+    }
+
+    /*Body - This Section - Form <=Data=> 
+        /*          
+                Input 1: Username
+                Input 2: Password
+                   -------------
+                Input 3: Submit
+        
+                Username: type="text" name="username" id="username"
+                Password: type="password" name="password" id="password"
+        *//*
+    */
+
+    /*Body - This Section - Form*/
+    /*The form that contains the input for loging in*/
+    body main > section:nth-of-type(2) > form{
+                /*Form Position*/
+        grid-column: 1/2;
+        grid-row: 2/3;
+        
+                /*Form Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Form Format*/
+        background: transparent;
+
+                /*Form Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /*Body - This Section - Form - Input*/
+    /*This is a univercial selector that targets all inputs*/
+    body main > section:nth-of-type(2) > form > section:nth-of-type(1), body main > section:nth-of-type(2) > form > section:nth-of-type(2){
+                /*Box Dimentions*/
+        width: 60%;
+        height: 30%;
+
+                /*Box Format*/
+        background-color: aliceblue;
+        border-radius: var(--radius);
+    
+                /*Box Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    /*Body - This Section - Form - Inputs*/
+    /*The input for loging in consisting of the username and password*/ /*Specified*/
+    body main > section:nth-of-type(2) > form > section > input[type="text"]{
+                /*Input Dimentions*/
+        width: 45%;
+        height: 70%;
+
+                /*Input Format*/
+        border-radius: var(--radius);
+        border: 0;
+
+                /*Input Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        font-size: 2.0rem;
+    }
+
+    /*Body - This Section - Form - Labels*/
+    /*This is a univercial selector for all labels*/
+    body main > section:nth-of-type(2) > form > section > label{
+                /*Text Position*/
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+        
+                /*Text Dimentions*/
+        width: 30%;
+        height: 70%;
+
+                /*Text Format*/
+        font-size: 2rem;
+
+                /*Text Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /*Body - This Section - Form - Inputs: Username*/
+    /*The input for the username*/ /*Specified*/
+    body main > section:nth-of-type(2) > form > section:nth-of-type(1) > input{
+
+    }
+
+    /*Body - This Section - Form - Inputs: Password*/
+    /*The input for the password*/ /*Specified*/
+    body main > section:nth-of-type(2) > form > section:nth-of-type(2) > input{
+
+    }
+
+    /*Body - This Section - Form - Inputs: Submit*/
+    /*The submit button for loging in*/ /*Specified*/
+    body main > section:nth-of-type(2) > form > section:nth-of-type(3){
+                /*Submit Position*/
+        justify-self: center;
+        align-self: center;
+
+                /*Submit Dimentions*/
+        width: 100%;
+        height: 10%;
+
+                /*Submit Display*/
+        display: flex;
+
+                /*Flex Properties*/ 
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Body - This Section - Form - Inputs: Submit*/
+    /*The submit button for loging in*/ /*Specified*/
+    body main > section:nth-of-type(2) > form > section:nth-of-type(3) > input{
+                /*Submit Position*/
+        justify-self: center;
+        align-self: center;
+
+                /*Submit Dimentions*/
+        width: 30%;
+        height: 100%;
+
+                /*Submit Format*/
+        border-radius: calc(var(--radius)*2.5);
+        border: 0;
+
+                /*Text Position*/
+        text-align: center;
+
+                /*Tex Format*/
+        margin: 0;
+        padding: 0;
+}
+
+    
+
+/*--------------------------------------- Body --------------------------------------------------*/
+
+/*--------------------------------------- Footer ------------------------------------------------*/
+
+body footer{
+                /*Footer Dimentions*/
+        width: 100%;
+        height: 15vh;
+
+                /*Footer Format*/
+        background: lightgray;
+
+                /*Footer Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        
+
+}
+
+/*Footer - Socials*/
+/*The social media icons*/
+body footer > div:nth-of-type(1){
+                /*Social Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+
+                /*Social Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Social Format*/
+        background: transparent;
+
+                /*Social Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+body footer > div:nth-of-type(1) > a{
+                /*Social Position*/
+        justify-self: center;
+        align-self: center;
+
+                /*Social Dimentions*/
+        width: 20%;
+        height: 70%;
+
+                /*Social Format*/
+        background: rgba(128, 128, 128, 0.301);
+        border-radius: var(--radius);
+
+                /*Social Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+}
+
+/*Footer - Socials - Icons*/
+/*The icons of the social media*/
+body footer > div:nth-of-type(1) > a img{
+                /*Icon Dimentions*/
+        width: auto;
+        height:70%;
+
+                /*Icon Format*/
+        border-radius: var(--radius);
+
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        margin: 0;
+        padding: 0;
+        font-size: 1.5rem;
+}
+
+/*Footer - Socials - Icons: Facebook*/
+/*The icon of the facebook page*/ /*Specified*/
+body footer > div:nth-of-type(1) > section:nth-of-type(1) a img{
+
+}
+
+/*Footer - Socials - Icons: X*/
+/*The icon of the X page*/ /*Specified*/
+body footer > div:nth-of-type(1) > section:nth-of-type(2) a img{
+
+}
+
+/*Footer - Socials - Icons: Instagram*/
+/*The icon of the instagram page*/ /*Specified*/
+body footer > div:nth-of-type(1) > section:nth-of-type(3) a img{
+
+}
+
+/*Footer - Socials - Icons: Facebook*/
+/*The icon of the facebook page*/ /*Specified*/
+body footer > div:nth-of-type(1) > section:nth-of-type(4) a img{
+
+}
+
+/*Footer - Recent Accounts Box */
+/*This seclector targets the box that holds the review*/
+body footer > div:nth-of-type(2){
+                /*Box Position*/
+        grid-column: 2/3;
+        grid-row: 1/2;
+        
+                /*Box Dimentions*/  
+        width: 100%;
+        height: 100%;
+
+                /*Box Format*/
+        background: tan;
+
+                /*Box Display*/
+        display: grid;
+
+                /*Grid Properties*/   
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 100%;
+}
+
+/*
+                Format (Grid)
+        | Button  |  Review  |  Button  |
+        |  Left   |  Center  |  Right   |
+
+*/
+
+/*Footer - Recent Accounts Box - left*/
+/*This is the button to the left*/
+body footer > div:nth-of-type(2) > button{
+                /*Button Position*/
+        justify-self: flex-end;
+        align-self: center;
+
+                /*Button Dimentions*/
+        width: 80%;
+        height: 30%;
+
+                /*Button Format*/
+        background: transparent;
+        border-radius: calc(var(--radius)*2.5);
+
+                /*Button Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+}
+
+/*Footer - Recent Account Box - Center*/
+/*This is the review*/
+body footer > div:nth-of-type(2) > div{
+                /*Box Position*/
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Box Dimentions*/
+        width: 100%;
+        height: 100%;
+
+                /*Box Format*/
+        background: transparent;
+
+                /*Box Display*/
+        display: grid;
+
+                /*Grid Properties*/
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+}
+
+/*Footer - Recent Account Box - Center - Title*/
+/*This is the title of the review*/
+body footer > div:nth-of-type(2) > div > h5{
+                /*Title Position*/
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+
+                /*Title Dimentions*/
+        width: 80%;
+        height: 80%;
+
+                /*Title Format*/
+        background: bisque;
+        border-radius: var(--radius);
+
+                /*Title Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        justify-content: center;
+        align-items: center;
+
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Format*/
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+}
+
+/*Footer - Recent Account Box - Center - Review*/
+/*This is the review*/
+body footer > div:nth-of-type(2) > div > div{
+                /*Review Position*/
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: center;
+
+                /*Review Dimentions*/
+        width: 80%;
+        height: 80%;
+
+                /*Review Format*/
+        background: rgba(128, 128, 128, 0.301);
+        border-radius: var(--radius);
+
+                /*Review Display*/
+        display: grid;
+
+                /*Flex Properties*/
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+}
+
+/*Footer - Recent Account Box - Center - Review - All*/
+/*This is the review*/
+body footer > div:nth-of-type(2) > div > div > div{
+                /*Review Position*/
+        justify-self: center;
+        align-self: center;
+
+                /*Review Dimentions*/
+        width: 80%;
+        height: 80%;
+
+                /*Review Format*/
+        background: teal;
+        border-radius: var(--radius);
+
+                /*Review Display*/
+        display: flex;
+
+                /*Flex Properties*/
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+/*Footer - Recent Account Box - Center - Review - All - All*/
+/*This is the review*/
+body footer > div:nth-of-type(2) > div > div > div *{
+                /*Text Position*/
+        text-align: center;
+
+                /*Text Dimentions*/
+        margin: 0;
+        padding: 0;
+}
+
+/*Footer - Recent Account Box - Right - Button*/
+/*This is the button to the right*/
+body footer > div:nth-of-type(2) > button:nth-of-type(2){
+                /*Button Position*/
+        justify-self: flex-start;
+}
