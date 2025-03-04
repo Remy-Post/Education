@@ -1,0 +1,42 @@
+:root{
+    --primaryT: 'font1';
+    --secondaryT: 'font2';
+
+    --accentT: 'font' + 'n'
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url('./luckiestGuy/LuckiestGuy-Regular.ttf') format('truetype');
+
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('./madimiOne/MadimiOne-Regular.ttf') format('truetype');
+
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url('./saira/Saira-VariableFont_wdth\,wght.ttf') format('truetype');
+
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: 'font4';
+    src: url('./spaceGrotesk/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'font5';
+    src: url('./workSans/WorkSans-VariableFont_wght.ttf') format('truetype');
+
+    font-weight: normal;
+}
