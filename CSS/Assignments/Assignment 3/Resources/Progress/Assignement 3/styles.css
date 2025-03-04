@@ -1,0 +1,422 @@
+/*-------------------------- Imports ---------------------*/
+@import url(./Colors/colors.css);
+@import url(./Fonts/fonts.css);
+/*-------------------------- /Imports ---------------------*/
+
+/*---------------------------- Settings -------------------*/
+:root{
+    --radius: 10px;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+/* h1, h2, h3, h4, h5, h6{
+    font-family: var(--primaryT);
+}
+
+p, button{
+    font-family: var(--secondaryT);
+} */
+
+/*------------------------ /Setting ----------------------*/
+
+/*-------------------------- Header -----------------------*/
+body header{
+            /*Header Dimentions*/ 
+    height: 15vh;
+    width: 100%;
+
+            /*Header Format*/
+    background: lightgrey;
+
+            /*Header Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+}
+
+/*Header - Left*/
+body header section:nth-of-type(1){
+        /*Section Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+        /*Section Dimentions*/
+    width: 100%;
+    height: 100%;
+
+        /*Section Format*/
+    background: lightblue;
+
+        /*Section Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Header - Left - Logo Container*/
+body header section:nth-of-type(1) div:nth-of-type(1){
+        /*Box Dimentions*/
+    width: 40%;
+    height: 80%;
+
+        /*Box Format*/
+    background: lightgreen;
+    border-radius: calc(var(--radius) * 2);
+
+        /*Box Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Left - Logo*/
+body header section:nth-of-type(1) div:nth-of-type(1) img{
+}
+
+/*Header - Left - Title Container*/
+body header section:nth-of-type(1) div:nth-of-type(2){
+        /*Box Dimentions*/
+    width: 40%;
+    height: 60%;
+
+        /*Box Format*/
+    background: lightgreen;
+    border-radius: var(--radius);
+
+        /*Box Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Header - Left - Title*/
+body header section:nth-of-type(1) div:nth-of-type(2) h1{
+    margin: 0;
+}
+
+/*Header - Right*/
+body header section:nth-of-type(2){
+            /*Section Position*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+            /*Section Dimentions*/
+    width: 100%;
+    height: 100%;
+
+            /*Section Format*/
+    background: lightsalmon;
+    
+            /*Section Display*/ 
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Right - Text Container*/
+body header section:nth-of-type(2) div{
+        /*Box Dimentions*/
+    width: 70%;
+    height: 80%;
+
+        /*Box Format*/
+    background: lightgreen;
+    border-radius: var(--radius);
+
+        /*Box Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Header - Right - Text*/
+body header section:nth-of-type(2) div p{
+
+}
+/*------------------------ /Header -----------------------*/
+
+/*----------------------- Structure ------------------------*/
+body > div{
+        /*Structure Dimentions*/
+    height: 70vh;
+    width: 100%;
+    margin-top: 50px;
+
+        /*Structure Format*/
+    background: lightgray;
+
+        /*Structure Display*/
+    display: grid;
+
+        /*Grid Properties*/
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+}
+
+body > div > div{
+
+        /*Structure Display*/
+    display: grid;
+
+        /*Grid Properties*/
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+}
+
+
+/*-------------------------- Main -------------------------*/
+
+body main{
+            /*Main Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+            /*Main Dimentions*/
+    width: 100%;
+    height: 100%;
+
+            /*Main Format*/
+    background: lightgrey;
+
+            /*Main Display*/
+    display: inline-grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
+
+/*Main - Top*/
+body main section:nth-of-type(1){
+        /*Section Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+        /*Section Dimentions*/
+    width: 40%;
+    height: 70%;
+
+        /*Section Format*/
+    background: lightblue;
+    border-radius: var(--radius);
+
+        /*Section Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Main - Top - Title*/
+body main section:nth-of-type(1) h3{
+    margin: 0;
+}
+
+/*Main - Bottom*/
+body main section:nth-of-type(2){
+        /*Section Position*/
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+        /*Section Dimentions*/
+    width: 100%;
+    height: 100%;
+
+        /*Section Format*/
+    background: lightblue;
+
+        /*Section Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Main - Bottom - Text*/
+body main section:nth-of-type(2) p{
+        /*Text Position*/
+    width: 40%;
+    height: 50%;
+
+        /*Text Format*/
+    background: teal;
+    border-radius: var(--radius);
+    color: white;
+
+        /*Text Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Main - Bottom - Image*/
+body main section:nth-of-type(2) img{
+        /*Image Position*/
+    width: 35%;
+    height: 50%;
+    justify-self: center;
+    align-self: center;
+
+        /*Image Format*/
+    border-radius: var(--radius);
+
+        /*Image Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+
+        /*Text Position*/
+    text-align: center;
+}
+/*------------------------ /Main -------------------------*/
+
+/*------------------------- Aside ------------------------*/
+body aside{
+            /*Aside Position*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+            /*Aside Dimentions*/
+    width: 100%;
+    height: 100%;
+
+            /*Aside Format*/
+    background: lightgrey;
+
+            /*Aside Display*/
+    display: grid;
+
+            /*Grid Properties*/
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
+
+/*Aside - Top - Title Container*/
+body aside section:nth-of-type(1){
+        /*Section Position*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+
+        /*Section Dimentions*/
+    width: 60%;
+    height: 70%;
+
+        /*Section Format*/
+    background: lightblue;
+    border-radius: var(--radius);
+
+        /*Section Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Aside - Top - Title*/
+body section:nth-of-type(1) h3{
+        /*Text Dimentions*/
+    margin: 0;
+    padding: 0;
+
+        /*Text Format*/
+    font-size: 1.5rem;
+}
+
+/*Aside - Bottom - Options Container*/
+body aside section:nth-of-type(2){
+        /*Section Position*/
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+        /*Section Dimentions*/
+    width: 100%;
+    height: 100%;
+
+        /*Section Format*/
+    background: transparent;
+
+        /*Section Display*/
+    display: flex;
+
+        /*Flex Properties*/
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Aside - Bottom - Options*/
+body aside section:nth-of-type(2) button{
+        /*Button Dimentions*/
+    width: 70%;
+    height: 10%;
+
+        /*Botton Format*/
+    border-radius: calc(var(--radius) * 2);
+}
+
+/*----------------------- /Aside ------------------------*/
+
+/*-------------------------- Footer -----------------------*/
+body footer{
+            /*Footer Position*/
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+
+            /*Footer Dimentions*/
+    width: 100%;
+    height: 100%;
+
+            /*Footer Format*/
+    background: lightslategrey;
+
+            /*Footer Display*/
+    display: flex;
+
+            /*Flex Properties*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Footer - Text*/
+body footer p{
+        /*Text Dimentions*/
+    margin: 0;
+    padding: 0;
+
+        /*Text Format*/
+    font-size: 1.5rem;
+}
+/*------------------------ /Footer -----------------------*/
