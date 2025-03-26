@@ -1,0 +1,579 @@
+:root {
+    --blue: #072d67;
+    --purple: #5e35b1;
+    --white: #f4f4f4;
+    --black: #0e0e0e;
+}
+
+/************************************************
+ * GENERAL STYLES
+ ************************************************/
+/* General Styles */
+html {
+    margin: 0;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/************************************************
+ * HEADER SECTION
+ ************************************************/
+/* Header Section */
+header {
+    width: 100%;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 5% 15% 75% 5%;
+    justify-content: space-between;
+    background-image: url(./4.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 50% 90%, 0 100%);
+}
+
+header img {
+    justify-self: flex-start;
+    margin-left: 4%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: auto;
+    width: 20%;
+    transform: scale(1.5);
+}
+
+header h1 {
+    justify-self: center;
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    justify-self: center;
+    align-self: center;
+    font-size: 3rem;
+}
+
+header nav {
+    justify-self: flex-end;
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 20%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header nav menu {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    list-style: none;
+}
+
+header nav menu li {
+    width: 100%;
+    display: block;
+    height: auto;
+    padding: 10px 15px;
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+header nav menu li:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0;
+}
+
+header nav menu li:last-child {
+    border-right: none;
+}
+
+header div {
+    justify-self: center;
+    align-self: flex-end;
+    margin-bottom: 7%;
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+    width: 7%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    animation-name: div;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    clip-path: polygon(50% 95%, 95% 65%, 100% 65%, 50% 100%, 0 60%, 5% 60%);
+}
+
+/* Header Animation */
+@keyframes div {
+    27% {
+        transform: translateY(-2.5vw);
+    }
+
+    70% {
+        transform: translateY(2.5vw);
+    }
+}
+
+/************************************************
+ * MAIN SECTIONS
+ ************************************************/
+/* Main Section - General */
+main section {
+    height: 70vh;
+}
+
+/************************************************
+ * SECTION 1 - INTRODUCTION
+ ************************************************/
+/* Section 1 - Introduction */
+main section:nth-of-type(1) {
+    justify-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5%;
+    margin-bottom: 20px;
+}
+
+main section:nth-of-type(1) h3 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+main section:nth-of-type(1) p {
+    font-size: 1.5rem;
+    margin: 0;
+    min-height: max-content;
+    text-align: center;
+}
+
+/************************************************
+ * SECTION 2 - FEATURE BUTTONS
+ ************************************************/
+/* Section 2 - Feature Buttons */
+main section:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+main section:nth-of-type(2) div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(./10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main section:nth-of-type(2) div:nth-of-type(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(./7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main section:nth-of-type(2) button {
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+    height: 80%;
+    color: white;
+    font-size: 3rem;
+    border: 2.5px solid black;
+    cursor: default;
+    background-color: transparent;
+}
+
+/************************************************
+ * SECTION 3 - INFO WITH BLUE BACKGROUND
+ ************************************************/
+/* Section 3 - Info with Blue Background */
+main section:nth-of-type(3) {
+    /* Position */
+    justify-self: center;
+    width: 100%;
+    padding: 5vh 0 10vh 0;
+
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* Background */
+    background-color: lightblue;
+    clip-path: polygon(0% 0%, 100% 0, 100% 79%, 50% 96%, 0 80%);
+    height: auto;
+}
+
+main section:nth-of-type(3) h3 {
+    justify-self: center;
+    align-self: center;
+    width: 50%;
+    height: max-content;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main section:nth-of-type(3) p {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+/************************************************
+ * SECTION 4 - BACKGROUND IMAGE WITH BUTTONS
+ ************************************************/
+/* Section 4 - Background Image with Buttons */
+main section:nth-of-type(4) {
+    /* Background settings */
+    background-image: url(./5.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /* Layout properties */
+    width: 100%;
+    height: 100vh;
+
+    /* Grid configuration */
+    display: grid;
+    grid-template-rows: 45% 10% 45%;
+    grid-template-columns: repeat(2, 1fr);
+
+    /* Positioning */
+    position: relative;
+    top: -15vh;
+    z-index: -1;
+    padding-top: 15vh;
+}
+
+main section:nth-of-type(4) h3 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    width: 50%;
+    height: max-content;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main section:nth-of-type(4) button {
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 1.5rem;
+    border: 1.5px solid black;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    padding: 1vh;
+    background-color: transparent;
+}
+
+main section:nth-of-type(4) button:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+main section:nth-of-type(4) button:nth-of-type(2) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+/************************************************
+ * SECTION 5 - FORM WITH PURPLE BACKGROUND
+ ************************************************/
+/* Section 5 - Form with Purple Background */
+main section:nth-of-type(5) {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0 10vh 0;
+
+    position: relative;
+    top: -15vh;
+
+    background-color: darkorchid;
+}
+
+main section:nth-of-type(5) form {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 25%) 30% 20%;
+}
+
+main section:nth-of-type(5) input {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+}
+
+main section:nth-of-type(5) input:nth-of-type(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 5%;
+    width: 85%;
+}
+
+main section:nth-of-type(5) input:nth-of-type(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-right: 5%;
+    width: 85%;
+}
+
+main section:nth-of-type(5) input:nth-of-type(3) {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+main section:nth-of-type(5) input:nth-of-type(4) {
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+main section:nth-of-type(5) input:nth-of-type(5) {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    justify-self: center;
+    align-self: center;
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    text-align: center;
+}
+
+/************************************************
+ * FOOTER SECTION
+ ************************************************/
+/* Footer Section */
+footer {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top: -15vh;
+}
+
+footer img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: auto;
+    height: 70%;
+}
+
+footer h5 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+/************************************************
+ * RESPONSIVE DESIGN
+ ************************************************/
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+
+    /* Header Section */
+    header div {
+        display: none;
+    }
+
+    header nav {
+        width: max-content;
+        position: relative;
+    }
+
+    header nav::before {
+        content: "\2630";
+        /* Hamburger menu icon */
+        position: absolute;
+        right: 20px;
+        top: 0;
+        font-size: 2rem;
+        cursor: pointer;
+        display: block;
+        z-index: 1000;
+    }
+
+    header nav menu {
+        display: none;
+        /* Hidden by default */
+        position: absolute;
+        right: -12px;
+        width: auto;
+        top: 40px;
+        background-color: var(--white);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 0;
+        margin: 0;
+        z-index: 999;
+    }
+
+    /* Display menu when nav is hovered */
+    header nav:hover menu {
+        display: block;
+    }
+
+    header nav:hover {
+        content: none;
+    }
+
+    header nav menu li {
+        width: max-content;
+        display: block;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+    }
+
+    header nav menu li:hover {
+        background-color: #f0f0f0;
+        transform: none;
+    }
+
+    header nav menu li:last-child {
+        border-bottom: none;
+    }
+
+    /* Section 1: Home / Introduction */
+    main section:nth-of-type(1) {
+        height: auto;
+        min-height: 70vh;
+        margin-bottom: 30px;
+    }
+
+    /* Section 2: About / Feature Buttons */
+    main section:nth-of-type(2) {
+        /* Change to single column layout for smaller screens */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        /* Center content within grid cells */
+        justify-items: center;
+        align-items: center;
+
+        /* Adjust height for responsive layout */
+        height: auto;
+        min-height: 130vh;
+
+        /* Add border for visual separation */
+        border: 1px solid black;
+    }
+
+    main section:nth-of-type(2) div:nth-of-type(1) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    main section:nth-of-type(2) div:nth-of-type(2) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    /* Section 4: Background Image With Buttons */
+    main section:nth-of-type(4) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+
+        /* Position */
+        top: -30vh;
+        z-index: -1;
+        padding-top: 30vh;
+    }
+
+    main section:nth-of-type(4) h3 {
+        text-align: center;
+        font-size: calc(2rem + 1vw);
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    /* Section 5: Form with Purple Background */
+    main section:nth-of-type(5) {
+        position: relative;
+        top: -30vh;
+        width: 100%;
+        padding: 5vh 0;
+        height: 70vh;
+    }
+
+    main section:nth-of-type(5) form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    main section:nth-of-type(5) input {
+        width: 90% !important;
+        height: 15%;
+        margin: 0 !important;
+        flex-grow: 1;
+    }
+
+    main section:nth-of-type(5) input::placeholder {
+        visibility: hidden;
+    }
+
+    main section:nth-of-type(5) input:nth-of-type(4) {
+        flex-grow: 2;
+    }
+
+}
